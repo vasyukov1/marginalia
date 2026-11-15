@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AuthorController;
 use App\Http\Controllers\BookController;
+use App\Http\Controllers\ReadingController;
 use App\Http\Controllers\Userzone\DashboardController;
 use App\Http\Controllers\Userzone\ProfileController;
 use App\Http\Controllers\WelcomeController;
@@ -29,7 +30,8 @@ Route::middleware('auth')->group(function () {
     // For the user's dashboard (after login)
     Route::get('/dashboard', DashboardController::class)->name('dashboard');
 
-    // Todo: add your Userzone routes here
+    Route::put('/books/{book}/reading', [ReadingController::class, 'update'])->name('readings.update');
+    Route::delete('/books/{book}/reading', [ReadingController::class, 'destroy'])->name('readings.destroy');
 
     // For the user's profile management
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
