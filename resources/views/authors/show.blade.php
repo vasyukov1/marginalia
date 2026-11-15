@@ -8,7 +8,7 @@
         <span class="text-sm text-[#687362]"><span aria-hidden="true">{{ $author->flag }}</span> {{ $author->country }}</span>
     </div>
     @if ($stats !== null)
-        <h2 class="mb-4 text-sm font-medium">Вы прочитали</h2>
+        <h2 class="mb-4 text-sm font-medium">{{ __('Вы прочитали') }}</h2>
         @include('readings.stats', ['authorStats' => true])
     @endif
     @include('books.filters')

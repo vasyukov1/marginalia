@@ -3,6 +3,7 @@
 use App\Http\Controllers\AuthorController;
 use App\Http\Controllers\BookController;
 use App\Http\Controllers\CatalogController;
+use App\Http\Controllers\LocaleController;
 use App\Http\Controllers\ReadingController;
 use App\Http\Controllers\Userzone\DashboardController;
 use App\Http\Controllers\Userzone\ProfileController;
@@ -12,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 /*
  * Public Website routes
  */
+Route::post('/language', LocaleController::class)->name('locale.update');
+
 Route::get('/', WelcomeController::class)->name('welcome');
 
 Route::get('/authors', [AuthorController::class, 'index'])->name('authors.index');

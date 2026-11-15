@@ -44,13 +44,13 @@ class StoreReadingRequest extends FormRequest
     public function messages(): array
     {
         return [
-            'required' => 'Заполните поле «:attribute».',
-            'string' => 'Поле «:attribute» должно содержать текст.',
-            'integer' => 'Поле «:attribute» должно содержать целое число.',
-            'max' => 'Поле «:attribute»: допустимый максимум — :max.',
-            'min' => 'Поле «:attribute»: допустимый минимум — :min.',
-            'exists' => 'Выберите книгу из каталога.',
-            'in' => 'Выберите один из предложенных вариантов.',
+            'required' => __('Заполните поле «:attribute».'),
+            'string' => __('Поле «:attribute» должно содержать текст.'),
+            'integer' => __('Поле «:attribute» должно содержать целое число.'),
+            'max' => __('Поле «:attribute»: допустимый максимум — :max.'),
+            'min' => __('Поле «:attribute»: допустимый минимум — :min.'),
+            'exists' => __('Выберите книгу из каталога.'),
+            'in' => __('Выберите один из предложенных вариантов.'),
         ];
     }
 
@@ -58,10 +58,10 @@ class StoreReadingRequest extends FormRequest
     public function attributes(): array
     {
         return [
-            'mode' => 'Способ добавления', 'book_id' => 'Книга', 'title' => 'Название',
-            'author_name' => 'Автор', 'country' => 'Страна автора', 'genre' => 'Жанр',
-            'pages' => 'Страницы', 'publication_year' => 'Год издания',
-            'period' => 'Когда прочитана', 'rating' => 'Оценка', 'notes' => 'Заметка',
+            'mode' => __('Способ добавления'), 'book_id' => __('Книга'), 'title' => __('Название'),
+            'author_name' => __('Автор'), 'country' => __('Страна автора'), 'genre' => __('Жанр'),
+            'pages' => __('Страницы'), 'publication_year' => __('Год издания'),
+            'period' => __('Когда прочитана'), 'rating' => __('Оценка'), 'notes' => __('Заметка'),
         ];
     }
 }
