@@ -3,32 +3,31 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>@yield('title', 'Каталог') · Marginalia</title>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <title>@yield('title', 'Книги') · Marginalia</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="bg-[#f7f5ef] font-sans text-[#292d25] antialiased selection:bg-[#dce3cf]">
+<body class="bg-[#f5f6f3] font-sans text-[#292d25] antialiased selection:bg-[#dce3cf]">
     <a href="#content" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-white focus:p-3">К содержимому</a>
-    <div class="mx-auto flex min-h-screen max-w-6xl flex-col px-5 sm:px-10">
-        <header class="flex flex-wrap items-center justify-between gap-5 border-b border-[#d9d9ce] py-7">
-            <a href="{{ route('welcome') }}" class="flex items-baseline gap-2" aria-label="Marginalia — каталог">
-                <span class="font-serif text-3xl tracking-tight">marginalia<span class="text-[#738064]">.</span></span>
-            </a>
-            <nav aria-label="Основная навигация" class="flex items-center gap-6 text-sm">
-                <a href="{{ route('welcome') }}" class="underline decoration-[#8c977b] underline-offset-8">Каталог</a>
-                @auth
-                    <a href="{{ route('profile.edit') }}" class="hover:text-[#66764f]">{{ auth()->user()->name }}</a>
-                @else
-                    <a href="{{ route('login') }}" class="hover:text-[#66764f]">Войти <span aria-hidden="true">↗</span></a>
-                @endauth
-            </nav>
-        </header>
-        <main id="content" class="flex-1 py-12 sm:py-16">
-            @yield('content')
-        </main>
-        <footer class="flex flex-wrap justify-between gap-3 border-t border-[#d9d9ce] py-6 text-xs text-[#6d7165]">
-            <span>Marginalia — заметки на полях</span>
-            <span>Личная история чтения</span>
-        </footer>
-    </div>
+    <header class="flex flex-wrap items-center justify-between gap-4 border-b border-[#dce1d7] bg-white px-5 py-4 sm:px-8">
+        <a href="{{ route('welcome') }}" class="font-serif text-2xl tracking-tight" aria-label="Marginalia — каталог">marginalia.</a>
+        <nav aria-label="Основная навигация" class="flex flex-wrap items-center gap-5 text-sm">
+            <a href="{{ route('welcome') }}" @class(['font-semibold text-[#3e603d]' => request()->routeIs('welcome')])>Книги</a>
+            @auth
+                <a href="{{ route('dashboard') }}" @class(['font-semibold text-[#3e603d]' => request()->routeIs('dashboard')])>Мои книги</a>
+                <a href="{{ route('profile.edit') }}">Настройки</a>
+                <form method="POST" action="{{ route('logout') }}">@csrf<button class="text-[#687362] hover:underline">Выйти</button></form>
+            @else
+                <a href="{{ route('login') }}">Войти</a>
+                <a href="{{ route('register') }}" class="rounded border border-[#cbd4c4] px-3 py-1.5 hover:bg-[#eef3e9]">Регистрация</a>
+            @endauth
+        </nav>
+    </header>
+    <main id="content" class="px-4 py-6 sm:px-8">
+        @if (session('status'))
+            <p role="status" class="mb-4 rounded border border-green-200 bg-green-50 px-4 py-3 text-sm text-green-900">{{ session('status') }}</p>
+        @endif
+        @yield('content')
+    </main>
 </body>
 </html>
