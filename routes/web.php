@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AuthorController;
 use App\Http\Controllers\BookController;
+use App\Http\Controllers\CatalogController;
 use App\Http\Controllers\ReadingController;
 use App\Http\Controllers\Userzone\DashboardController;
 use App\Http\Controllers\Userzone\ProfileController;
@@ -16,6 +17,7 @@ Route::get('/', WelcomeController::class)->name('welcome');
 Route::get('/authors', [AuthorController::class, 'index'])->name('authors.index');
 Route::get('/authors/{author}', [AuthorController::class, 'show'])->name('authors.show');
 
+Route::get('/books', CatalogController::class)->name('books.index');
 Route::get('/books/{book}', [BookController::class, 'show'])->name('books.show');
 
 /*

@@ -4,7 +4,7 @@
 
 @section('content')
     <div class="mx-auto max-w-4xl">
-        <a href="{{ route('welcome') }}" class="text-sm text-[#687362] underline underline-offset-4">Все книги</a>
+        <a href="{{ route('books.index') }}" class="text-sm text-[#687362] underline underline-offset-4">Все книги</a>
         <h1 class="mt-6 text-3xl leading-tight font-semibold">{{ $book->title }}</h1>
         <a href="{{ route('authors.show', $book->author) }}" class="mt-3 inline-block text-lg text-[#45623d] underline underline-offset-4">{{ $book->author->name }}</a>
         <dl class="my-7 grid grid-cols-2 gap-6 border-y border-[#dce1d7] py-5 text-sm sm:grid-cols-4">

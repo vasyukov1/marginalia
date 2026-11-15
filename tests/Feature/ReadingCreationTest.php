@@ -27,7 +27,7 @@ it('adds a new book to the shared catalog and only the current readers library',
         ->and($book->author->name)->toBe('Новый автор')
         ->and($book->created_by_user_id)->toBe($user->id);
     $this->assertDatabaseHas('readings', ['user_id' => $user->id, 'book_id' => $book->id, 'rating' => 9]);
-    $this->actingAs($other)->get('/')->assertSee('Новая книга');
+    $this->actingAs($other)->get('/books')->assertSee('Новая книга');
     $this->get('/readings/create')->assertOk()->assertSee('Новая книга');
     $this->post('/readings', ['mode' => 'existing', 'book_id' => $book->id, 'rating' => 7])
         ->assertRedirect('/dashboard');

@@ -92,7 +92,7 @@
             </div>
             <div class="flex flex-wrap items-center gap-5">
                 <button class="rounded bg-[#36583c] px-5 py-2.5 text-sm text-white hover:bg-[#29452e]">Добавить в прочитанные</button>
-                <a href="{{ route('welcome') }}" class="text-sm text-[#687362] underline underline-offset-4">Отмена</a>
+                <a href="{{ route('books.index') }}" class="text-sm text-[#687362] underline underline-offset-4">Отмена</a>
             </div>
         </form>
     </div>
