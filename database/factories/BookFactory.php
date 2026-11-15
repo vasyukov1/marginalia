@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Models\Author;
 use App\Models\Book;
 use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
@@ -20,7 +21,9 @@ class BookFactory extends Factory
     {
         return [
             'title' => fake()->sentence(4),
-            'author_name' => fake()->name(),
+            'author_id' => Author::factory(),
+            'pages' => fake()->numberBetween(80, 900),
+            'genre' => 'Роман',
             'isbn' => fake()->unique()->isbn13(),
             'description' => fake()->paragraph(),
             'publication_year' => fake()->numberBetween(1450, (int) date('Y')),

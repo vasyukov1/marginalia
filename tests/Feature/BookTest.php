@@ -8,7 +8,6 @@ it('creates a catalog book for the user who submitted it', function () {
     $user = User::factory()->create();
     $book = Book::factory()->for($user, 'createdBy')->create([
         'title' => 'The Left Hand of Darkness',
-        'author_name' => 'Ursula K. Le Guin',
         'isbn' => '9780441478125',
     ]);
 
