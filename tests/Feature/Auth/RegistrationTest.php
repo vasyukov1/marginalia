@@ -17,3 +17,7 @@ test('new users can register', function () {
     $this->assertAuthenticated();
     $response->assertRedirect(route('dashboard', absolute: false));
 });
+
+test('login offers a registration link', function () {
+    $this->get('/login')->assertOk()->assertSee(route('register'), false)->assertSee('Создать аккаунт');
+});

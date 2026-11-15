@@ -28,3 +28,26 @@
         border-color: var(--color-gray-200, currentcolor);
     }
 }
+
+@layer components {
+    .table-filter {
+        @apply rounded border-[#cfd7c8] bg-white px-3 py-2 text-sm focus:border-[#628453] focus:ring-[#628453];
+    }
+}
+
+.book-sheet {
+    max-height: calc(100dvh - 240px);
+    min-height: 240px;
+    scrollbar-color: #b7c5ad #f0f3ec;
+}
+
+.sheet-number {
+    width: 48px;
+    min-width: 48px;
+}
+
+@media (max-width: 640px) {
+    .book-sheet {
+        max-height: 70dvh;
+    }
+}

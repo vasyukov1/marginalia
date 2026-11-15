@@ -22,6 +22,7 @@
 <body class="font-sans antialiased">
 <div class="min-h-screen bg-gray-100">
     @include('layouts.app_navigation')
+    <div class="mx-auto max-w-7xl px-6 py-3"><x-language-switcher /></div>
 
     <!-- Page Heading -->
     @isset($header)
