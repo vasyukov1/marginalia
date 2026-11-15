@@ -13,6 +13,7 @@
         <a href="{{ route('welcome') }}" class="font-serif text-2xl tracking-tight" aria-label="Marginalia — каталог">marginalia.</a>
         <nav aria-label="Основная навигация" class="flex flex-wrap items-center gap-5 text-sm">
             <a href="{{ route('welcome') }}" @class(['font-semibold text-[#3e603d]' => request()->routeIs('welcome')])>Книги</a>
+            <a href="{{ route('authors.index') }}" @class(['font-semibold text-[#3e603d]' => request()->routeIs('authors.*')])>Авторы</a>
             @auth
                 <a href="{{ route('dashboard') }}" @class(['font-semibold text-[#3e603d]' => request()->routeIs('dashboard')])>Мои книги</a>
                 <a href="{{ route('profile.edit') }}">Настройки</a>

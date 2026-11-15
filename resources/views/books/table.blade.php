@@ -30,7 +30,7 @@
                     <th scope="row" class="min-w-72 max-w-md border-b border-l border-[#e1e6dc] px-4 py-3 font-medium">
                         <a href="{{ route('books.show', $book) }}" class="hover:text-[#36583c] hover:underline underline-offset-4">{{ $book->title }}</a>
                     </th>
-                    <td class="min-w-44 border-b border-l border-[#e1e6dc] px-4 py-3">{{ $book->author->name }}</td>
+                    <td class="min-w-44 border-b border-l border-[#e1e6dc] px-4 py-3"><a href="{{ route('authors.show', $book->author) }}" class="text-[#45623d] underline-offset-4 hover:underline">{{ $book->author->name }}</a></td>
                     <td class="whitespace-nowrap border-b border-l border-[#e1e6dc] px-4 py-3"><span aria-hidden="true" class="mr-1.5">{{ $book->author->flag }}</span>{{ $book->author->country ?? '—' }}</td>
                     <td class="border-b border-l border-[#e1e6dc] px-4 py-3 text-right tabular-nums">{{ $book->publication_year ?? '—' }}</td>
                     <td class="min-w-40 border-b border-l border-[#e1e6dc] px-4 py-3 text-[#687362]">{{ $book->genre ?? '—' }}</td>

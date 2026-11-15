@@ -13,7 +13,7 @@
         <div class="min-w-0">
             <p class="mb-4 text-xs tracking-widest text-[#6d7165] uppercase">{{ $book->genre ?? 'Книга' }}</p>
             <h1 class="font-serif text-4xl leading-tight tracking-tight sm:text-5xl">{{ $book->title }}</h1>
-            <a href="{{ route('welcome', ['author' => $book->author_id]) }}" class="mt-5 inline-block text-lg text-[#586b48] underline decoration-[#aab59a] underline-offset-4">{{ $book->author->name }}</a>
+            <a href="{{ route('authors.show', $book->author) }}" class="mt-5 inline-block text-lg text-[#586b48] underline decoration-[#aab59a] underline-offset-4">{{ $book->author->name }}</a>
             <dl class="mt-10 grid grid-cols-2 gap-6 border-y border-[#d9d9ce] py-6 text-sm sm:grid-cols-3">
                 <div><dt class="text-xs text-[#6d7165]">Год публикации</dt><dd class="mt-2">{{ $book->publication_year ?? 'Не указан' }}</dd></div>
                 <div><dt class="text-xs text-[#6d7165]">Страницы</dt><dd class="mt-2">{{ $book->pages ?? 'Не указаны' }}</dd></div>

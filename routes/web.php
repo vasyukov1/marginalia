@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AuthorController;
 use App\Http\Controllers\BookController;
 use App\Http\Controllers\Userzone\DashboardController;
 use App\Http\Controllers\Userzone\ProfileController;
@@ -10,6 +11,9 @@ use Illuminate\Support\Facades\Route;
  * Public Website routes
  */
 Route::get('/', WelcomeController::class)->name('welcome');
+
+Route::get('/authors', [AuthorController::class, 'index'])->name('authors.index');
+Route::get('/authors/{author}', [AuthorController::class, 'show'])->name('authors.show');
 
 Route::get('/books/{book}', [BookController::class, 'show'])->name('books.show');
 
