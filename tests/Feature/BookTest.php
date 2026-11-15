@@ -3,6 +3,7 @@
 use App\Models\Book;
 use App\Models\User;
 use Illuminate\Database\QueryException;
+use Illuminate\Support\Facades\Hash;
 
 it('creates a catalog book for the user who submitted it', function () {
     $user = User::factory()->create();
@@ -36,4 +37,16 @@ it('seeds books for local development and assessment', function () {
     $this->seed();
 
     $this->assertDatabaseCount('books', 20);
+});
+
+it('seeds a repeatable catalog and a demo readers library', function () {
+    $this->seed();
+    $this->seed();
+
+    $this->assertDatabaseCount('books', 20);
+    $this->assertDatabaseHas('authors', ['name' => 'Жюль Верн']);
+    $this->assertDatabaseHas('users', ['email' => 'admin@example.com']);
+    $this->assertDatabaseCount('readings', 20);
+    $this->assertDatabaseHas('readings', ['period' => 'Лето 2016']);
+    expect(Hash::check('password', User::where('email', 'admin@example.com')->firstOrFail()->password))->toBeTrue();
 });
