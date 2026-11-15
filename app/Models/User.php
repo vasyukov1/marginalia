@@ -52,4 +52,9 @@ class User extends Authenticatable
     {
         return $this->hasMany(Book::class, 'created_by_user_id');
     }
+
+    public function readings(): HasMany
+    {
+        return $this->hasMany(Reading::class);
+    }
 }
