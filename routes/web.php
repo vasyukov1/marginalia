@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BookController;
 use App\Http\Controllers\Userzone\DashboardController;
 use App\Http\Controllers\Userzone\ProfileController;
 use App\Http\Controllers\WelcomeController;
@@ -10,13 +11,12 @@ use Illuminate\Support\Facades\Route;
  */
 Route::get('/', WelcomeController::class)->name('welcome');
 
-// Todo: add your public routes here
+Route::get('/books/{book}', [BookController::class, 'show'])->name('books.show');
 
 /*
  * Authentication routes
  */
 require __DIR__.'/auth.php';
-
 
 /*
  * Userzone routes
