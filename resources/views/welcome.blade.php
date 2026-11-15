@@ -38,34 +38,42 @@
         <span>По названию</span>
     </div>
 
-    <div class="divide-y divide-[#d9d9ce] border-y border-[#d9d9ce]">
-        @forelse ($books as $book)
-            <article class="group flex items-center gap-4 py-5 sm:gap-6">
-                <div aria-hidden="true" @class([
-                    'flex h-16 w-11 shrink-0 items-center justify-center border-l-4 font-serif text-lg',
-                    'border-[#657754] bg-[#e2e7d9] text-[#4c6040]' => $book->id % 3 === 0,
-                    'border-[#a67b5e] bg-[#ece1d4] text-[#825c43]' => $book->id % 3 === 1,
-                    'border-[#76858a] bg-[#dfe5e5] text-[#536970]' => $book->id % 3 === 2,
-                ])>{{ mb_substr($book->author->name, 0, 1) }}</div>
-                <div class="min-w-0 flex-1">
-                    <h2 class="font-serif text-xl leading-snug sm:text-2xl">
-                        <a href="{{ route('books.show', $book) }}" class="decoration-[#8c977b] underline-offset-4 hover:underline">{{ $book->title }}</a>
-                    </h2>
-                    <p class="mt-1 text-sm text-[#6d7165]">{{ $book->author->name }}<span class="sm:hidden"> · {{ $book->publication_year ?? 'Год неизвестен' }}</span></p>
-                </div>
-                <div class="hidden w-40 shrink-0 text-sm text-[#6d7165] md:block">{{ $book->genre ?? '—' }}</div>
-                <div class="hidden w-16 shrink-0 text-right text-sm tabular-nums text-[#6d7165] sm:block">{{ $book->publication_year ?? '—' }}</div>
-                <div class="hidden w-20 shrink-0 text-right text-xs tabular-nums text-[#6d7165] lg:block">{{ $book->pages ? $book->pages.' стр.' : '—' }}</div>
-                <span aria-hidden="true" class="text-[#8c977b]">↗</span>
-            </article>
-        @empty
-            <div class="py-16 text-center">
-                <h2 class="font-serif text-3xl">Книги не найдены</h2>
-                <p class="mt-3 text-sm text-[#6d7165]">Попробуйте другое название или выберите всех авторов.</p>
-                <a href="{{ route('welcome') }}" class="mt-5 inline-block text-sm underline underline-offset-4">Вернуться к каталогу</a>
-            </div>
-        @endforelse
+    <div role="region" aria-label="Таблица книг" tabindex="0" class="overflow-x-auto border-y border-[#d9d9ce] focus-visible:outline-2 focus-visible:outline-[#66764f]">
+        <table class="w-full min-w-[760px] table-fixed text-left text-sm">
+            <caption class="sr-only">Каталог книг: название, автор, жанр, год публикации и количество страниц</caption>
+            <thead class="border-b border-[#d9d9ce] bg-[#eeeee5] text-xs text-[#626957]">
+                <tr>
+                    <th scope="col" class="w-[38%] px-4 py-4 font-medium">Название</th>
+                    <th scope="col" class="w-[22%] px-4 py-4 font-medium">Автор</th>
+                    <th scope="col" class="w-[22%] px-4 py-4 font-medium">Жанр</th>
+                    <th scope="col" class="w-[8%] px-4 py-4 text-right font-medium">Год</th>
+                    <th scope="col" class="w-[10%] px-4 py-4 text-right font-medium">Страницы</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-[#d9d9ce]">
+                @forelse ($books as $book)
+                    <tr class="align-top transition-colors hover:bg-[#eeeee5]/60">
+                        <th scope="row" class="px-4 py-5 font-serif text-lg leading-snug font-normal">
+                            <a href="{{ route('books.show', $book) }}" class="decoration-[#8c977b] underline-offset-4 hover:underline">{{ $book->title }}</a>
+                        </th>
+                        <td class="px-4 py-5 text-[#555c4d]">{{ $book->author->name }}</td>
+                        <td class="px-4 py-5 text-[#6d7165]">{{ $book->genre ?? '—' }}</td>
+                        <td class="px-4 py-5 text-right tabular-nums text-[#555c4d]">{{ $book->publication_year ?? '—' }}</td>
+                        <td class="px-4 py-5 text-right tabular-nums text-[#555c4d]">{{ $book->pages ?? '—' }}</td>
+                    </tr>
+                @empty
+                    <tr>
+                        <td colspan="5" class="px-4 py-16 text-center">
+                            <h2 class="font-serif text-3xl">Книги не найдены</h2>
+                            <p class="mt-3 text-sm text-[#6d7165]">Попробуйте другое название или выберите всех авторов.</p>
+                            <a href="{{ route('welcome') }}" class="mt-5 inline-block text-sm underline underline-offset-4">Вернуться к каталогу</a>
+                        </td>
+                    </tr>
+                @endforelse
+            </tbody>
+        </table>
     </div>
+    <p class="mt-3 text-xs text-[#6d7165] md:hidden">Прокрутите таблицу вправо, чтобы увидеть все столбцы.</p>
 
     @if ($books->hasPages())
         <nav aria-label="Страницы каталога" class="mt-7 flex items-center justify-between gap-4 text-sm">
