@@ -64,7 +64,7 @@ class Book extends Model
     {
         $query->with('author');
         if ($userId !== null) {
-            $query->with(['readings' => fn (Builder $readings) => $readings->where('user_id', $userId)]);
+            $query->with(['readings' => fn (HasMany $readings) => $readings->where('user_id', $userId)]);
         }
 
         $search = Str::lower(Str::squish($filters['q'] ?? ''));

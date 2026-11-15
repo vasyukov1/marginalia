@@ -4,6 +4,7 @@ namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Database\Factories\UserFactory;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -56,5 +57,23 @@ class User extends Authenticatable
     public function readings(): HasMany
     {
         return $this->hasMany(Reading::class);
+    }
+
+    /** @return array{books: int, authors: int, pages: int, rating: ?float} */
+    public function readingStats(?Author $author = null): array
+    {
+        $query = $this->readings()->with('book');
+        if ($author !== null) {
+            $query->whereHas('book', fn (Builder $books) => $books->where('author_id', $author->id));
+        }
+        $readings = $query->get();
+        $average = $readings->avg('rating');
+
+        return [
+            'books' => $readings->count(),
+            'authors' => $readings->pluck('book.author_id')->unique()->count(),
+            'pages' => (int) $readings->sum('book.pages'),
+            'rating' => $average === null ? null : round($average, 1),
+        ];
     }
 }
