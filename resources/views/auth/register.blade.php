@@ -1,52 +1,34 @@
-<x-guest-layout>
-    <form method="POST" action="{{ route('register') }}">
-        @csrf
+@extends('layouts.catalog')
 
-        <!-- Name -->
-        <div>
-            <x-breeze.input-label for="name" value="Name" />
-            <x-breeze.text-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" />
-            <x-breeze.input-error :messages="$errors->get('name')" class="mt-2" />
-        </div>
+@section('title', 'Регистрация')
 
-        <!-- Email Address -->
-        <div class="mt-4">
-            <x-breeze.input-label for="email" value="Email" />
-            <x-breeze.text-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autocomplete="username" />
-            <x-breeze.input-error :messages="$errors->get('email')" class="mt-2" />
-        </div>
-
-        <!-- Password -->
-        <div class="mt-4">
-            <x-breeze.input-label for="password" value="Password" />
-
-            <x-breeze.text-input id="password" class="block mt-1 w-full"
-                            type="password"
-                            name="password"
-                            required autocomplete="new-password" />
-
-            <x-breeze.input-error :messages="$errors->get('password')" class="mt-2" />
-        </div>
-
-        <!-- Confirm Password -->
-        <div class="mt-4">
-            <x-breeze.input-label for="password_confirmation" value="Confirm Password" />
-
-            <x-breeze.text-input id="password_confirmation" class="block mt-1 w-full"
-                            type="password"
-                            name="password_confirmation" required autocomplete="new-password" />
-
-            <x-breeze.input-error :messages="$errors->get('password_confirmation')" class="mt-2" />
-        </div>
-
-        <div class="flex items-center justify-end mt-4">
-            <a class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-hidden focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="{{ route('login') }}">
-                Already registered?
-            </a>
-
-            <x-breeze.primary-button class="ms-4">
-                Register
-            </x-breeze.primary-button>
-        </div>
-    </form>
-</x-guest-layout>
+@section('content')
+    <div class="mx-auto mt-6 max-w-md rounded-md border border-[#cfd7c8] bg-white p-7">
+        <h1 class="mb-6 text-2xl font-semibold">Регистрация</h1>
+        <form method="POST" action="{{ route('register') }}" class="space-y-5">
+            @csrf
+            <div>
+                <label for="name" class="mb-2 block text-sm">Имя</label>
+                <input id="name" name="name" value="{{ old('name') }}" maxlength="255" required autofocus autocomplete="name" class="table-filter w-full">
+                <x-breeze.input-error :messages="$errors->get('name')" class="mt-2" />
+            </div>
+            <div>
+                <label for="email" class="mb-2 block text-sm">Email</label>
+                <input id="email" name="email" type="email" value="{{ old('email') }}" required autocomplete="username" class="table-filter w-full">
+                <x-breeze.input-error :messages="$errors->get('email')" class="mt-2" />
+            </div>
+            <div>
+                <label for="password" class="mb-2 block text-sm">Пароль</label>
+                <input id="password" name="password" type="password" minlength="8" required autocomplete="new-password" aria-describedby="password-hint" class="table-filter w-full">
+                <p id="password-hint" class="mt-1 text-xs text-[#687362]">Не менее 8 символов.</p>
+                <x-breeze.input-error :messages="$errors->get('password')" class="mt-2" />
+            </div>
+            <div>
+                <label for="password_confirmation" class="mb-2 block text-sm">Повторите пароль</label>
+                <input id="password_confirmation" name="password_confirmation" type="password" required autocomplete="new-password" class="table-filter w-full">
+            </div>
+            <button class="w-full rounded bg-[#36583c] px-5 py-2.5 text-sm text-white hover:bg-[#29452e]">Создать аккаунт</button>
+        </form>
+        <p class="mt-6 text-sm text-[#687362]">Уже есть аккаунт? <a href="{{ route('login') }}" class="text-[#45623d] underline underline-offset-4">Войти</a></p>
+    </div>
+@endsection
