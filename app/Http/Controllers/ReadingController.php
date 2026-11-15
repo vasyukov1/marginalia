@@ -2,12 +2,60 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\StoreReadingRequest;
+use App\Models\Author;
 use App\Models\Book;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Str;
+use Illuminate\View\View;
 
 class ReadingController extends Controller
 {
+    public function create(): View
+    {
+        return view('readings.create', [
+            'books' => Book::with('author')->orderBy('title_key')->get(),
+            'authors' => Author::orderBy('name_key')->get(),
+        ]);
+    }
+
+    public function store(StoreReadingRequest $request): RedirectResponse
+    {
+        $data = $request->validated();
+
+        $reading = DB::transaction(function () use ($request, $data) {
+            if ($data['mode'] === 'existing') {
+                $book = Book::findOrFail($data['book_id']);
+            } else {
+                $author = Author::firstOrCreate(
+                    ['name_key' => Str::lower($data['author_name'])],
+                    ['name' => $data['author_name'], 'country' => $data['country'] ?? null],
+                );
+                $book = $author->books()->firstOrCreate(
+                    ['title_key' => Str::lower($data['title'])],
+                    [
+                        'title' => $data['title'],
+                        'pages' => $data['pages'] ?? null,
+                        'publication_year' => $data['publication_year'] ?? null,
+                        'genre' => $data['genre'] ?? null,
+                        'created_by_user_id' => $request->user()->id,
+                    ],
+                );
+            }
+
+            return $request->user()->readings()->firstOrCreate(
+                ['book_id' => $book->id],
+                ['period' => $data['period'] ?? null, 'rating' => $data['rating'] ?? null, 'notes' => $data['notes'] ?? null],
+            );
+        });
+
+        return to_route('dashboard')->with('status', $reading->wasRecentlyCreated
+            ? 'Книга добавлена в прочитанные.'
+            : 'Эта книга уже есть в ваших прочитанных.');
+    }
+
     public function update(Request $request, Book $book): RedirectResponse
     {
         $data = $request->validate([

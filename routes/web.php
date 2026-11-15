@@ -30,6 +30,9 @@ Route::middleware('auth')->group(function () {
     // For the user's dashboard (after login)
     Route::get('/dashboard', DashboardController::class)->name('dashboard');
 
+    Route::get('/readings/create', [ReadingController::class, 'create'])->name('readings.create');
+    Route::post('/readings', [ReadingController::class, 'store'])->name('readings.store');
+
     Route::put('/books/{book}/reading', [ReadingController::class, 'update'])->name('readings.update');
     Route::delete('/books/{book}/reading', [ReadingController::class, 'destroy'])->name('readings.destroy');
 
