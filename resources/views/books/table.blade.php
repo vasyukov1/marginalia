@@ -16,7 +16,7 @@
                         $direction = $active && ($filters['direction'] ?? 'asc') === 'asc' ? 'desc' : 'asc';
                     @endphp
                     <th scope="col" aria-sort="{{ $active ? (($filters['direction'] ?? 'asc') === 'asc' ? 'ascending' : 'descending') : 'none' }}" class="sticky top-0 z-20 border-b border-l border-[#cfd7c8] bg-[#e9eee4] text-xs font-semibold text-[#465840]">
-                        <a href="{{ url()->current().'?'.http_build_query(array_merge($filters, ['sort' => $key, 'direction' => $direction])) }}" class="flex items-center justify-between gap-4 whitespace-nowrap px-4 py-3 hover:bg-[#dce7d4]" aria-label="{{ $label }}: {{ $direction === 'asc' ? __('по возрастанию') : __('по убыванию') }}">
+                        <a href="{{ url()->query(url()->current(), array_merge($filters, ['sort' => $key, 'direction' => $direction])) }}" class="flex items-center justify-between gap-4 whitespace-nowrap px-4 py-3 hover:bg-[#dce7d4]" aria-label="{{ $label }}: {{ $direction === 'asc' ? __('по возрастанию') : __('по убыванию') }}">
                             {{ $label }} <span aria-hidden="true" class="{{ $active ? 'text-[#36583c]' : 'text-[#899582]' }}">{{ $active ? (($filters['direction'] ?? 'asc') === 'asc' ? '↑' : '↓') : '↕︎' }}</span>
                         </a>
                     </th>
