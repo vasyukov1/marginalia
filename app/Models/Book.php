@@ -67,11 +67,18 @@ class Book extends Model
             $query->with(['readings' => fn (HasMany $readings) => $readings->where('user_id', $userId)]);
         }
 
-        $search = Str::lower(Str::squish($filters['q'] ?? ''));
+        $searchTerm = Str::squish($filters['q'] ?? '');
+        $search = Str::lower($searchTerm);
         if ($search !== '') {
-            $query->where(function (Builder $books) use ($search) {
+            $query->where(function (Builder $books) use ($search, $searchTerm) {
                 $books->where('title_key', 'like', '%'.$search.'%')
-                    ->orWhereHas('author', fn (Builder $authors) => $authors->where('name_key', 'like', '%'.$search.'%'));
+                    ->orWhereHas('author', fn (Builder $authors) => $authors
+                        ->where('name_key', 'like', '%'.$search.'%')
+                        ->orWhere('country', 'like', '%'.$searchTerm.'%'));
+
+                if (ctype_digit($search)) {
+                    $books->orWhere('publication_year', (int) $search);
+                }
             });
         }
         if (! empty($filters['author'])) {

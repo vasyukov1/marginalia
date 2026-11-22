@@ -20,6 +20,24 @@ it('searches titles and author names regardless of Cyrillic case', function (str
         ->assertOk()->assertSee('Вокруг света')->assertDontSee('Другой роман');
 })->with(['  ВОКРУГ  ', 'ВЕРН']);
 
+it('finds a title and books published in the searched year', function () {
+    $titleMatch = Book::factory()->create(['title' => '1984', 'publication_year' => 1949]);
+    $yearMatch = Book::factory()->create(['title' => 'Книга этого года', 'publication_year' => 1984]);
+    Book::factory()->create(['title' => 'Не подходит', 'publication_year' => 1983]);
+
+    $this->get('/books?q=1984')->assertOk()
+        ->assertViewHas('books', fn ($books) => $books->modelKeys() === [$titleMatch->id, $yearMatch->id]);
+});
+
+it('finds books by the authors country', function () {
+    $frenchAuthor = Author::factory()->create(['country' => 'Франция']);
+    $frenchBook = Book::factory()->for($frenchAuthor)->create();
+    Book::factory()->for(Author::factory()->create(['country' => 'Италия']))->create();
+
+    $this->get('/books?'.http_build_query(['q' => 'Франция']))->assertOk()
+        ->assertViewHas('books', fn ($books) => $books->modelKeys() === [$frenchBook->id]);
+});
+
 it('combines search with the selected author', function () {
     $author = Author::factory()->create();
     $book = Book::factory()->for($author)->create(['title' => 'Дом']);

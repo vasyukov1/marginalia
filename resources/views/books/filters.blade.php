@@ -3,7 +3,7 @@
     <input type="hidden" name="direction" value="{{ $filters['direction'] ?? 'asc' }}">
     <div class="min-w-48 flex-1">
         <label for="q" class="mb-1.5 block text-xs text-[#687362]">{{ __('Поиск') }}</label>
-        <input id="q" name="q" type="search" maxlength="120" value="{{ $filters['q'] ?? '' }}" placeholder="{{ __('Название или автор') }}" class="table-filter w-full">
+        <input id="q" name="q" type="search" maxlength="120" value="{{ $filters['q'] ?? '' }}" placeholder="{{ __('Название, автор, страна или год') }}" class="table-filter w-full">
     </div>
     <div class="w-48 grow sm:grow-0">
         <label for="author" class="mb-1.5 block text-xs text-[#687362]">{{ __('Автор') }}</label>
