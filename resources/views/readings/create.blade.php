@@ -5,11 +5,11 @@
 @section('content')
     <div class="mx-auto max-w-3xl">
         <h1 class="mb-6 text-2xl font-semibold">{{ __('Добавить прочитанную книгу') }}</h1>
-        <form method="POST" action="{{ route('readings.store') }}" class="space-y-6 rounded-md border border-[#cfd7c8] bg-white p-5 sm:p-7"
+        <form method="POST" action="{{ route('readings.store') }}" class="space-y-6 rounded-md border border-line bg-surface p-5 sm:p-7"
               x-data="{ mode: @js(old('mode', 'existing')) }">
             @csrf
             @if ($errors->any())
-                <ul class="space-y-1 text-sm text-red-700" role="alert">
+                <ul class="space-y-1 text-sm text-red-300" role="alert">
                     @foreach ($errors->all() as $error)
                         <li>{{ $error }}</li>
                     @endforeach
@@ -17,7 +17,7 @@
             @endif
             <fieldset>
                 <legend class="sr-only">{{ __('Способ добавления') }}</legend>
-                <div class="flex flex-wrap gap-5 border-b border-[#dce1d7] pb-5 text-sm">
+                <div class="flex flex-wrap gap-5 border-b border-line pb-5 text-sm">
                     <label class="flex items-center gap-2"><input type="radio" name="mode" value="existing" x-model="mode" @checked(old('mode', 'existing') === 'existing')> {{ __('Из каталога') }}</label>
                     <label class="flex items-center gap-2"><input type="radio" name="mode" value="new" x-model="mode" @checked(old('mode') === 'new')> {{ __('Новой книги ещё нет') }}</label>
                 </div>
@@ -33,7 +33,7 @@
             </div>
             <fieldset x-show="mode === 'new'" :disabled="mode !== 'new'" class="space-y-4">
                 <legend class="sr-only">{{ __('Новая книга') }}</legend>
-                <p class="text-sm text-[#687362]">{{ __('Книга появится в общем каталоге. Если автор и название уже есть, используем существующую запись.') }}</p>
+                <p class="text-sm text-muted">{{ __('Книга появится в общем каталоге. Если автор и название уже есть, используем существующую запись.') }}</p>
                 <div>
                     <label for="title" class="mb-2 block text-sm">{{ __('Название *') }}</label>
                     <input id="title" name="title" value="{{ old('title') }}" maxlength="255" :required="mode === 'new'" class="table-filter w-full">
@@ -71,7 +71,7 @@
                     </div>
                 </div>
             </fieldset>
-            <div class="grid gap-4 border-t border-[#dce1d7] pt-5 sm:grid-cols-2">
+            <div class="grid gap-4 border-t border-line pt-5 sm:grid-cols-2">
                 <div>
                     <label for="period" class="mb-2 block text-sm">{{ __('Когда прочитана') }}</label>
                     <input id="period" name="period" maxlength="100" value="{{ old('period') }}" placeholder="{{ __('Например, осень 2026') }}" class="table-filter w-full">
@@ -91,8 +91,8 @@
                 <textarea id="notes" name="notes" rows="3" maxlength="2000" class="table-filter w-full">{{ old('notes') }}</textarea>
             </div>
             <div class="flex flex-wrap items-center gap-5">
-                <button class="rounded bg-[#36583c] px-5 py-2.5 text-sm text-white hover:bg-[#29452e]">{{ __('Добавить в прочитанные') }}</button>
-                <a href="{{ route('books.index') }}" class="text-sm text-[#687362] underline underline-offset-4">{{ __('Отмена') }}</a>
+                <button class="primary-action">{{ __('Добавить в прочитанные') }}</button>
+                <a href="{{ route('books.index') }}" class="text-sm text-muted underline underline-offset-4">{{ __('Отмена') }}</a>
             </div>
         </form>
     </div>

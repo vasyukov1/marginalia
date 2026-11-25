@@ -2,6 +2,6 @@
     @csrf
     @foreach (['ru' => 'RU', 'en' => 'EN'] as $locale => $label)
         <button name="locale" value="{{ $locale }}" lang="{{ $locale }}" aria-pressed="{{ app()->getLocale() === $locale ? 'true' : 'false' }}"
-                @class(['rounded px-2 py-1', 'bg-[#e9eee4] font-semibold text-[#36583c]' => app()->getLocale() === $locale, 'text-[#687362] hover:underline' => app()->getLocale() !== $locale])>{{ $label }}</button>
+                @class(['rounded px-2 py-1', 'bg-accent font-semibold text-canvas' => app()->getLocale() === $locale, 'text-muted hover:underline' => app()->getLocale() !== $locale])>{{ $label }}</button>
     @endforeach
 </form>

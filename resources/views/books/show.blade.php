@@ -4,23 +4,23 @@
 
 @section('content')
     <div class="mx-auto max-w-4xl">
-        <a href="{{ route('books.index') }}" class="text-sm text-[#687362] underline underline-offset-4">{{ __('Все книги') }}</a>
+        <a href="{{ route('books.index') }}" class="text-sm text-muted underline underline-offset-4">{{ __('Все книги') }}</a>
         <h1 class="mt-6 text-3xl leading-tight font-semibold">{{ $book->title }}</h1>
-        <a href="{{ route('authors.show', $book->author) }}" class="mt-3 inline-block text-lg text-[#45623d] underline underline-offset-4">{{ $book->author->name }}</a>
-        <dl class="my-7 grid grid-cols-2 gap-6 border-y border-[#dce1d7] py-5 text-sm sm:grid-cols-4">
-            <div><dt class="text-xs text-[#687362]">{{ __('Страна') }}</dt><dd class="mt-2">{{ $book->author->flag }} {{ __($book->author->country ?? '—') }}</dd></div>
-            <div><dt class="text-xs text-[#687362]">{{ __('Год') }}</dt><dd class="mt-2">{{ $book->publication_year ?? '—' }}</dd></div>
-            <div><dt class="text-xs text-[#687362]">{{ __('Жанр') }}</dt><dd class="mt-2">{{ __($book->genre ?? '—') }}</dd></div>
-            <div><dt class="text-xs text-[#687362]">{{ __('Страницы') }}</dt><dd class="mt-2">{{ $book->pages ?? '—' }}</dd></div>
+        <a href="{{ route('authors.show', $book->author) }}" class="mt-3 inline-block text-lg text-link underline underline-offset-4">{{ $book->author->name }}</a>
+        <dl class="my-7 grid grid-cols-2 gap-6 border-y border-line py-5 text-sm sm:grid-cols-4">
+            <div><dt class="text-xs text-muted">{{ __('Страна') }}</dt><dd class="mt-2">{{ $book->author->flag }} {{ __($book->author->country ?? '—') }}</dd></div>
+            <div><dt class="text-xs text-muted">{{ __('Год') }}</dt><dd class="mt-2">{{ $book->publication_year ?? '—' }}</dd></div>
+            <div><dt class="text-xs text-muted">{{ __('Жанр') }}</dt><dd class="mt-2">{{ __($book->genre ?? '—') }}</dd></div>
+            <div><dt class="text-xs text-muted">{{ __('Страницы') }}</dt><dd class="mt-2">{{ $book->pages ?? '—' }}</dd></div>
         </dl>
         @if ($book->description)
             <p class="mb-7 whitespace-pre-line leading-relaxed">{{ $book->description }}</p>
         @endif
         @if ($book->isbn)
-            <p class="mb-7 text-sm text-[#687362]">ISBN: {{ $book->isbn }}</p>
+            <p class="mb-7 text-sm text-muted">ISBN: {{ $book->isbn }}</p>
         @endif
         @auth
-            <section class="rounded-md border border-[#cfd7c8] bg-white p-5 sm:p-7">
+            <section class="rounded-md border border-line bg-surface p-5 sm:p-7">
                 <h2 class="mb-5 text-xl font-semibold">{{ $reading ? __('Ваша запись о чтении') : __('Отметить прочитанной') }}</h2>
                 <form method="POST" action="{{ route('readings.update', $book) }}" class="space-y-5">
                     @csrf
@@ -47,7 +47,7 @@
                         <textarea id="notes" name="notes" maxlength="2000" rows="3" class="table-filter w-full">{{ old('notes', $reading?->notes) }}</textarea>
                         <x-breeze.input-error :messages="$errors->get('notes')" class="mt-2" />
                     </div>
-                    <button class="rounded bg-[#36583c] px-5 py-2.5 text-sm text-white hover:bg-[#29452e]">{{ $reading ? __('Сохранить') : __('Добавить в прочитанные') }}</button>
+                    <button class="primary-action">{{ $reading ? __('Сохранить') : __('Добавить в прочитанные') }}</button>
                 </form>
                 @if ($reading)
                     <form method="POST" action="{{ route('readings.destroy', $book) }}" class="mt-5">
@@ -58,7 +58,7 @@
                 @endif
             </section>
         @else
-            <p class="text-sm"><a href="{{ route('login') }}" class="text-[#45623d] underline">{{ __('Войдите') }}</a> {{ __('или') }} <a href="{{ route('register') }}" class="text-[#45623d] underline">{{ __('зарегистрируйтесь') }}</a>{{ __(', чтобы отметить книгу прочитанной.') }}</p>
+            <p class="text-sm"><a href="{{ route('login') }}" class="text-link underline">{{ __('Войдите') }}</a> {{ __('или') }} <a href="{{ route('register') }}" class="text-link underline">{{ __('зарегистрируйтесь') }}</a>{{ __(', чтобы отметить книгу прочитанной.') }}</p>
         @endauth
     </div>
 @endsection
