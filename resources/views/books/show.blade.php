@@ -53,7 +53,7 @@
                     <form method="POST" action="{{ route('readings.destroy', $book) }}" class="mt-5">
                         @csrf
                         @method('DELETE')
-                        <button class="text-sm text-[#8a5045] underline underline-offset-4">{{ __('Убрать из прочитанных') }}</button>
+                        <button class="text-sm text-red-300 underline underline-offset-4">{{ __('Убрать из прочитанных') }}</button>
                     </form>
                 @endif
             </section>

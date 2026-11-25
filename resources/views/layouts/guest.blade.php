@@ -19,15 +19,15 @@
             <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.15.1/dist/cdn.min.js"></script>
         @endif
     </head>
-    <body class="font-sans text-gray-900 antialiased">
-        <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100">
+    <body class="font-sans text-ink antialiased">
+        <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-canvas">
             <div>
                 <a href="/">
-                    <x-breeze.application-logo class="w-20 h-20 fill-current text-gray-500" />
+                    <span class="font-serif text-3xl tracking-tight text-ink">marginalia.</span>
                 </a>
             </div>
 
-            <div class="w-full sm:max-w-md mt-6 px-6 py-4 bg-white shadow-md overflow-hidden sm:rounded-lg">
+            <div class="w-full sm:max-w-md mt-6 px-6 py-7 border border-line bg-surface shadow-md overflow-hidden sm:rounded-lg">
                 <div class="mb-5"><x-language-switcher /></div>
                 {{ $slot }}
             </div>
