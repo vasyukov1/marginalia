@@ -1,6 +1,28 @@
 <form method="GET" action="{{ url()->current() }}" class="mb-4 flex flex-wrap items-end gap-3 text-sm">
     <input type="hidden" name="sort" value="{{ $filters['sort'] ?? 'title' }}">
     <input type="hidden" name="direction" value="{{ $filters['direction'] ?? 'asc' }}">
+    @isset($readingYears)
+        <div class="w-40 grow sm:grow-0">
+            <label for="reading_year" class="mb-1.5 block text-xs text-muted">{{ __('Год чтения') }}</label>
+            <select id="reading_year" name="reading_year" class="table-filter w-full">
+                <option value="">{{ __('Все годы') }}</option>
+                @foreach ($readingYears as $year)
+                    <option value="{{ $year }}" @selected(($filters['reading_year'] ?? '') == $year)>{{ $year }}</option>
+                @endforeach
+                <option value="unknown" @selected(($filters['reading_year'] ?? '') === 'unknown')>{{ __('Год не указан') }}</option>
+            </select>
+        </div>
+        <div class="w-40 grow sm:grow-0">
+            <label for="reading_season" class="mb-1.5 block text-xs text-muted">{{ __('Сезон чтения') }}</label>
+            <select id="reading_season" name="reading_season" class="table-filter w-full">
+                <option value="">{{ __('Все сезоны') }}</option>
+                @foreach ($seasons as $value => $label)
+                    <option value="{{ $value }}" @selected(($filters['reading_season'] ?? '') === $value)>{{ __($label) }}</option>
+                @endforeach
+                <option value="unknown" @selected(($filters['reading_season'] ?? '') === 'unknown')>{{ __('Сезон не указан') }}</option>
+            </select>
+        </div>
+    @endisset
     <div class="min-w-48 flex-1">
         <label for="q" class="mb-1.5 block text-xs text-muted">{{ __('Поиск') }}</label>
         <input id="q" name="q" type="search" maxlength="120" value="{{ $filters['q'] ?? '' }}" placeholder="{{ __('Название, автор, страна или год') }}" class="table-filter w-full">
