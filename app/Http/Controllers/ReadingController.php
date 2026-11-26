@@ -46,12 +46,13 @@ class ReadingController extends Controller
             } else {
                 $author = Author::firstOrCreate(
                     ['name_key' => Str::lower($data['author_name'])],
-                    ['name' => $data['author_name'], 'country' => $data['country'] ?? null],
+                    ['name' => $data['author_name'], 'name_en' => $data['author_name_en'] ?? null, 'country' => $data['country'] ?? null],
                 );
                 $book = $author->books()->firstOrCreate(
                     ['title_key' => Str::lower($data['title'])],
                     [
                         'title' => $data['title'],
+                        'title_en' => $data['title_en'] ?? null,
                         'pages' => $data['pages'] ?? null,
                         'publication_year' => $data['publication_year'] ?? null,
                         'genre' => $data['genre'] ?? null,

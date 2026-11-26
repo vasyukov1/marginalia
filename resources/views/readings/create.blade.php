@@ -65,11 +65,11 @@
                 <legend class="sr-only">{{ __('Новая книга') }}</legend>
                 <p class="text-sm text-muted">{{ __('Книга появится в общем каталоге. Если автор и название уже есть, используем существующую запись.') }}</p>
                 <div>
-                    <label for="title" class="mb-2 block text-sm">{{ __('Название *') }}</label>
+                    <label for="title" class="mb-2 block text-sm">{{ __('Название на русском *') }}</label>
                     <input id="title" name="title" value="{{ old('title') }}" maxlength="255" :required="mode === 'new'" class="table-filter w-full">
                 </div>
                 <div>
-                    <label for="author_name" class="mb-2 block text-sm">{{ __('Автор *') }}</label>
+                    <label for="author_name" class="mb-2 block text-sm">{{ __('Автор на русском *') }}</label>
                     <input id="author_name" name="author_name" list="authors" value="{{ old('author_name') }}" maxlength="255" :required="mode === 'new'" class="table-filter w-full">
                     <datalist id="authors">
                         @foreach ($authors as $author)
@@ -77,6 +77,20 @@
                         @endforeach
                     </datalist>
                 </div>
+                <details @if (old('title_en') || old('author_name_en')) open @endif class="rounded-md border border-line p-4">
+                    <summary class="cursor-pointer text-sm">{{ __('Английский перевод (необязательно)') }}</summary>
+                    <p class="mt-3 text-xs text-muted">{{ __('Без перевода показывается исходное название. Перевод автора сохраняется только для нового автора.') }}</p>
+                    <div class="mt-4 grid gap-4 sm:grid-cols-2">
+                        <div>
+                            <label for="title_en" class="mb-2 block text-sm">{{ __('Название на английском') }}</label>
+                            <input id="title_en" name="title_en" value="{{ old('title_en') }}" maxlength="255" class="table-filter w-full">
+                        </div>
+                        <div>
+                            <label for="author_name_en" class="mb-2 block text-sm">{{ __('Автор на английском') }}</label>
+                            <input id="author_name_en" name="author_name_en" value="{{ old('author_name_en') }}" maxlength="255" class="table-filter w-full">
+                        </div>
+                    </div>
+                </details>
                 <div class="grid gap-4 sm:grid-cols-2">
                     <div>
                         <label for="country" class="mb-2 block text-sm">{{ __('Страна автора') }}</label>

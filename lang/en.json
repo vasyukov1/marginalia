@@ -118,5 +118,11 @@
     "Роман": "Novel",
     "Начните вводить…": "Start typing…",
     "Совпадений нет. Можно добавить новую книгу.": "No matches. You can add a new book.",
-    "Книга выбрана. Автор заполнен автоматически.": "Book selected. The author has been filled in automatically."
+    "Книга выбрана. Автор заполнен автоматически.": "Book selected. The author has been filled in automatically.",
+    "Название на русском *": "Title in Russian *",
+    "Автор на русском *": "Author in Russian *",
+    "Английский перевод (необязательно)": "English translation (optional)",
+    "Без перевода показывается исходное название. Перевод автора сохраняется только для нового автора.": "Without a translation, the original title is shown. The author translation is saved only for a new author.",
+    "Название на английском": "Title in English",
+    "Автор на английском": "Author in English"
 }

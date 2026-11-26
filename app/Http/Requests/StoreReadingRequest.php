@@ -15,9 +15,10 @@ class StoreReadingRequest extends FormRequest
 
     protected function prepareForValidation(): void
     {
-        foreach (['title', 'author_name'] as $field) {
+        foreach (['title', 'title_en', 'author_name', 'author_name_en'] as $field) {
             if (is_string($this->input($field))) {
-                $this->merge([$field => Str::squish($this->input($field))]);
+                $value = Str::squish($this->input($field));
+                $this->merge([$field => $value === '' ? null : $value]);
             }
         }
     }
@@ -30,6 +31,8 @@ class StoreReadingRequest extends FormRequest
             'book_id' => ['exclude_unless:mode,existing', 'required', 'integer', 'exists:books,id'],
             'title' => ['exclude_unless:mode,new', 'required', 'string', 'max:255'],
             'author_name' => ['exclude_unless:mode,new', 'required', 'string', 'max:255'],
+            'title_en' => ['exclude_unless:mode,new', 'nullable', 'string', 'max:255'],
+            'author_name_en' => ['exclude_unless:mode,new', 'nullable', 'string', 'max:255'],
             'country' => ['exclude_unless:mode,new', 'nullable', 'string', 'max:100'],
             'genre' => ['exclude_unless:mode,new', 'nullable', 'string', 'max:100'],
             'pages' => ['exclude_unless:mode,new', 'nullable', 'integer', 'min:1', 'max:100000'],
@@ -58,6 +61,7 @@ class StoreReadingRequest extends FormRequest
     public function attributes(): array
     {
         return [
+            'title_en' => __('Название на английском'), 'author_name_en' => __('Автор на английском'),
             'mode' => __('Способ добавления'), 'book_id' => __('Книга'), 'title' => __('Название'),
             'author_name' => __('Автор'), 'country' => __('Страна автора'), 'genre' => __('Жанр'),
             'pages' => __('Страницы'), 'publication_year' => __('Год издания'),

@@ -111,7 +111,7 @@ class Book extends Model
         if (in_array($sort, ['author', 'country'], true)) {
             $column = $sort === 'author' ? 'name_key' : 'country';
             $authorName = app()->getLocale() === 'en' && $sort === 'author'
-                ? Author::selectRaw('COALESCE(name_en, name_key)')
+                ? Author::selectRaw('LOWER(COALESCE(name_en, name_key))')
                 : Author::select($column);
             $query->orderBy($authorName->whereColumn('authors.id', 'books.author_id'), $direction);
         } elseif (in_array($sort, ['period', 'rating'], true) && $userId !== null) {
