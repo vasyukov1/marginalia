@@ -32,6 +32,9 @@ require __DIR__.'/auth.php';
  * Userzone routes
  */
 Route::middleware('auth')->group(function () {
+    Route::get('/authors/{author}/edit', [AuthorController::class, 'edit'])->can('update-author', 'author')->name('authors.edit');
+    Route::patch('/authors/{author}', [AuthorController::class, 'update'])->can('update-author', 'author')->name('authors.update');
+
     Route::get('/books/{book}/edit', [BookController::class, 'edit'])->can('update-book', 'book')->name('books.edit');
     Route::patch('/books/{book}', [BookController::class, 'update'])->can('update-book', 'book')->name('books.update');
 

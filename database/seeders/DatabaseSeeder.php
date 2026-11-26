@@ -24,7 +24,7 @@ class DatabaseSeeder extends Seeder
         foreach ($this->books() as [$title, $authorName, $period, $pages, $country, $year, $genre]) {
             $author = Author::firstOrCreate(
                 ['name_key' => Str::lower(Str::squish($authorName))],
-                Author::factory()->raw(['name' => $authorName, 'country' => $country]),
+                Author::factory()->raw(['name' => $authorName, 'country' => $country, 'created_by_user_id' => $user->id]),
             );
 
             $book = Book::firstOrCreate(

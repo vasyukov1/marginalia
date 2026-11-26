@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\BookTableRequest;
+use App\Http\Requests\UpdateAuthorRequest;
 use App\Models\Author;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
 
@@ -32,5 +34,17 @@ class AuthorController extends Controller
             'filters' => $request->validated(),
             'stats' => $request->user()?->readingStats($author),
         ]);
+    }
+
+    public function edit(Author $author): View
+    {
+        return view('authors.edit', ['author' => $author]);
+    }
+
+    public function update(UpdateAuthorRequest $request, Author $author): RedirectResponse
+    {
+        $author->update($request->safe()->only(['name', 'name_en', 'country']));
+
+        return to_route('authors.show', $author)->with('status', __('Данные автора обновлены.'));
     }
 }

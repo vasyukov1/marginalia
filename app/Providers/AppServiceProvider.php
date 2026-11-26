@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Models\Author;
 use App\Models\Book;
 use App\Models\User;
 use Illuminate\Support\Facades\Gate;
@@ -22,6 +23,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+        Gate::define('update-author', fn (User $user, Author $author): bool => $author->created_by_user_id === $user->id);
         Gate::define('update-book', fn (User $user, Book $book): bool => $book->created_by_user_id === $user->id);
     }
 }

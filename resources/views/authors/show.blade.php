@@ -6,6 +6,9 @@
     <div class="mb-5 flex flex-wrap items-baseline gap-4">
         <h1 class="text-2xl font-semibold">{{ $author->localized_name }}</h1>
         <span class="text-sm text-muted"><span aria-hidden="true">{{ $author->flag }}</span> {{ $author->country }}</span>
+        @can('update-author', $author)
+            <a href="{{ route('authors.edit', $author) }}" class="secondary-action sm:ml-auto">{{ __('Редактировать автора') }}</a>
+        @endcan
     </div>
     @if ($stats !== null)
         <h2 class="mb-4 text-sm font-medium">{{ __('Вы прочитали') }}</h2>

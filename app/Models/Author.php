@@ -16,7 +16,7 @@ class Author extends Model
     use HasFactory;
 
     /** @var list<string> */
-    protected $fillable = ['name', 'name_en', 'country'];
+    protected $fillable = ['name', 'name_en', 'country', 'created_by_user_id'];
 
     protected function name(): Attribute
     {

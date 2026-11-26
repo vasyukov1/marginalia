@@ -130,5 +130,9 @@
     "Описание": "Description",
     "Книга обновлена.": "Book updated.",
     "У этого автора уже есть книга с таким названием.": "This author already has a book with this title.",
-    "Изменения будут видны в общем каталоге. Ваши оценки и заметки сохранятся.": "Changes will appear in the shared catalog. Your ratings and notes will be kept."
+    "Изменения будут видны в общем каталоге. Ваши оценки и заметки сохранятся.": "Changes will appear in the shared catalog. Your ratings and notes will be kept.",
+    "Редактировать автора": "Edit author",
+    "Назад к автору": "Back to author",
+    "Данные автора обновлены.": "Author details updated.",
+    "Автор с таким именем уже есть в каталоге.": "An author with this name already exists in the catalog."
 }
