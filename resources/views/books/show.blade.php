@@ -4,7 +4,7 @@
 
 @section('content')
     <div class="mx-auto max-w-4xl">
-        <a href="{{ route('books.index') }}" class="text-sm text-muted underline underline-offset-4">{{ __('Все книги') }}</a>
+        <a href="{{ route('books.index') }}" class="text-sm text-muted underline underline-offset-4">{{ __('В библиотеку') }}</a>
         <div class="mt-6 flex flex-wrap items-start justify-between gap-4">
             <h1 class="text-3xl leading-tight font-semibold">{{ $book->localized_title }}</h1>
             @can('update-book', $book)

@@ -18,14 +18,14 @@
             <fieldset>
                 <legend class="sr-only">{{ __('Способ добавления') }}</legend>
                 <div class="flex flex-wrap gap-5 border-b border-line pb-5 text-sm">
-                    <label class="flex items-center gap-2"><input type="radio" name="mode" value="existing" x-model="mode" @checked(old('mode', 'existing') === 'existing')> {{ __('Из каталога') }}</label>
+                    <label class="flex items-center gap-2"><input type="radio" name="mode" value="existing" x-model="mode" @checked(old('mode', 'existing') === 'existing')> {{ __('Из библиотеки') }}</label>
                     <label class="flex items-center gap-2"><input type="radio" name="mode" value="new" x-model="mode" @checked(old('mode') === 'new')> {{ __('Новой книги ещё нет') }}</label>
                 </div>
             </fieldset>
             <fieldset x-show="mode === 'existing'" :disabled="mode !== 'existing'"
                       x-data="readingPicker(@js($bookSuggestions), @js($authorSuggestions), @js(old('book_id')), @js(old('catalog_title', '')), @js(old('catalog_author', '')))"
                       class="space-y-4">
-                <legend class="sr-only">{{ __('Выберите книгу из каталога.') }}</legend>
+                <legend class="sr-only">{{ __('Выберите книгу из библиотеки.') }}</legend>
                 <input type="hidden" name="book_id" :value="bookId">
                 @foreach (['title' => __('Название'), 'author' => __('Автор')] as $field => $label)
                     <div class="relative" @click.outside="if (activeField === '{{ $field }}') close()" @focusout="if (!$el.contains($event.relatedTarget)) close()">
@@ -63,7 +63,7 @@
             </fieldset>
             <fieldset x-show="mode === 'new'" :disabled="mode !== 'new'" class="space-y-4">
                 <legend class="sr-only">{{ __('Новая книга') }}</legend>
-                <p class="text-sm text-muted">{{ __('Книга появится в общем каталоге. Если автор и название уже есть, используем существующую запись.') }}</p>
+                <p class="text-sm text-muted">{{ __('Книга появится в библиотеке. Если автор и название уже есть, используем существующую запись.') }}</p>
                 <div>
                     <label for="title" class="mb-2 block text-sm">{{ __('Название на русском *') }}</label>
                     <input id="title" name="title" value="{{ old('title') }}" maxlength="255" :required="mode === 'new'" class="table-filter w-full">

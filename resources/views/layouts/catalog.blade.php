@@ -4,15 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>@yield('title', __('Книги')) · Marginalia</title>
+    <title>@yield('title', __('Библиотека')) · Marginalia</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="bg-canvas font-sans text-ink antialiased selection:bg-accent selection:text-canvas">
     <a href="#content" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-surface focus:p-3">{{ __('К содержимому') }}</a>
     <header class="catalog-header flex flex-wrap items-center justify-between gap-4 border-b border-line bg-surface px-5 py-4 sm:px-8">
-        <a href="{{ route('welcome') }}" class="font-serif text-2xl tracking-tight" aria-label="{{ __('Marginalia — каталог') }}">marginalia.</a>
+        <a href="{{ route('welcome') }}" class="font-serif text-2xl tracking-tight" aria-label="{{ __('Marginalia — библиотека') }}">marginalia.</a>
         <nav aria-label="{{ __('Основная навигация') }}" class="flex flex-wrap items-center gap-5 text-sm">
-            <a href="{{ route('books.index') }}" @class(['font-semibold text-accent' => request()->routeIs('books.*')])>{{ __('Книги') }}</a>
+            <a href="{{ route('books.index') }}" @class(['font-semibold text-accent' => request()->routeIs('books.*')])>{{ __('Библиотека') }}</a>
             <a href="{{ route('authors.index') }}" @class(['font-semibold text-accent' => request()->routeIs('authors.*')])>{{ __('Авторы') }}</a>
             @auth
                 <a href="{{ route('dashboard') }}" @class(['font-semibold text-accent' => request()->routeIs('dashboard')])>{{ __('Мои книги') }}</a>

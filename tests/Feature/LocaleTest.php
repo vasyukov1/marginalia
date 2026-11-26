@@ -10,7 +10,7 @@ it('switches language and remembers it across pages', function () {
     $this->get('/')->assertSee('lang="en"', false)->assertSee('Add a read book')->assertDontSee('Добавить прочитанную книгу');
     $this->get('/register')->assertSee('Create account');
     $this->get('/books')->assertSee('All authors');
-    $this->actingAs(User::factory()->create())->get('/readings/create')->assertSee('From the catalog');
+    $this->actingAs(User::factory()->create())->get('/readings/create')->assertSee('From the library');
     $this->post('/language', ['locale' => 'ru'])->assertSessionHas('locale', 'ru');
     $this->get('/')->assertSee('Добавить прочитанную книгу');
 });

@@ -47,7 +47,7 @@ class UpdateAuthorRequest extends FormRequest
             $duplicate = Author::where('name_key', Str::lower($this->input('name')))
                 ->where('id', '!=', $this->route('author')->id)->exists();
             if ($duplicate) {
-                $validator->errors()->add('name', __('Автор с таким именем уже есть в каталоге.'));
+                $validator->errors()->add('name', __('Автор с таким именем уже есть в библиотеке.'));
             }
         }];
     }

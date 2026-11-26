@@ -9,7 +9,7 @@
         <form method="POST" action="{{ route('books.update', $book) }}" class="space-y-5 rounded-xl border border-line bg-surface p-5 sm:p-7">
             @csrf
             @method('PATCH')
-            <p class="text-sm text-muted">{{ __('Изменения будут видны в общем каталоге. Ваши оценки и заметки сохранятся.') }}</p>
+            <p class="text-sm text-muted">{{ __('Изменения будут видны в библиотеке. Ваши оценки и заметки сохранятся.') }}</p>
             @if ($errors->any())
                 <ul role="alert" class="space-y-1 text-sm text-red-700">
                     @foreach ($errors->all() as $error)
