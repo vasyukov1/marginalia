@@ -10,7 +10,7 @@
         <select id="author" name="author" class="table-filter w-full">
             <option value="">{{ __('Все авторы') }}</option>
             @foreach ($authors as $authorOption)
-                <option value="{{ $authorOption->id }}" @selected(($filters['author'] ?? '') == $authorOption->id)>{{ $authorOption->name }}</option>
+                <option value="{{ $authorOption->id }}" @selected(($filters['author'] ?? '') == $authorOption->id)>{{ $authorOption->localized_name }}</option>
             @endforeach
         </select>
     </div>

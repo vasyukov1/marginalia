@@ -24,6 +24,7 @@ class Book extends Model
      */
     protected $fillable = [
         'title',
+        'title_en',
         'author_id',
         'pages',
         'genre',
@@ -40,6 +41,16 @@ class Book extends Model
                 'title' => Str::squish($value),
                 'title_key' => Str::lower(Str::squish($value)),
             ],
+        );
+    }
+
+    /** Название для интерфейса; исходное title остаётся неизменным. */
+    protected function localizedTitle(): Attribute
+    {
+        return Attribute::make(
+            get: fn (): string => app()->getLocale() === 'en' && $this->title_en
+                ? $this->title_en
+                : $this->title,
         );
     }
 
@@ -72,8 +83,10 @@ class Book extends Model
         if ($search !== '') {
             $query->where(function (Builder $books) use ($search, $searchTerm) {
                 $books->where('title_key', 'like', '%'.$search.'%')
+                    ->orWhereLike('title_en', '%'.$search.'%')
                     ->orWhereHas('author', fn (Builder $authors) => $authors
                         ->where('name_key', 'like', '%'.$search.'%')
+                        ->orWhereLike('name_en', '%'.$search.'%')
                         ->orWhere('country', 'like', '%'.$searchTerm.'%'));
 
                 if (ctype_digit($search)) {
@@ -97,9 +110,14 @@ class Book extends Model
 
         if (in_array($sort, ['author', 'country'], true)) {
             $column = $sort === 'author' ? 'name_key' : 'country';
-            $query->orderBy(Author::select($column)->whereColumn('authors.id', 'books.author_id'), $direction);
+            $authorName = app()->getLocale() === 'en' && $sort === 'author'
+                ? Author::selectRaw('COALESCE(name_en, name_key)')
+                : Author::select($column);
+            $query->orderBy($authorName->whereColumn('authors.id', 'books.author_id'), $direction);
         } elseif (in_array($sort, ['period', 'rating'], true) && $userId !== null) {
             $query->orderBy(Reading::select($sort)->whereColumn('readings.book_id', 'books.id')->where('user_id', $userId), $direction);
+        } elseif ($sort === 'title' && app()->getLocale() === 'en') {
+            $query->orderByRaw('LOWER(COALESCE(title_en, title_key)) '.$direction);
         } else {
             $query->orderBy($columns[$sort] ?? 'title_key', $direction);
         }

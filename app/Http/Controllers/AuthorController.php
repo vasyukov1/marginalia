@@ -19,7 +19,7 @@ class AuthorController extends Controller
                 ->withAvg(['readings' => $ownReadings], 'rating');
         }
 
-        return view('authors.index', ['authors' => $authors->get()]);
+        return view('authors.index', ['authors' => $authors->get()->sortBy('localized_name')->values()]);
     }
 
     public function show(BookTableRequest $request, Author $author): View

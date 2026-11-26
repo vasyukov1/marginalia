@@ -1,12 +1,12 @@
 @extends('layouts.catalog')
 
-@section('title', $book->title)
+@section('title', $book->localized_title)
 
 @section('content')
     <div class="mx-auto max-w-4xl">
         <a href="{{ route('books.index') }}" class="text-sm text-muted underline underline-offset-4">{{ __('Все книги') }}</a>
-        <h1 class="mt-6 text-3xl leading-tight font-semibold">{{ $book->title }}</h1>
-        <a href="{{ route('authors.show', $book->author) }}" class="mt-3 inline-block text-lg text-link underline underline-offset-4">{{ $book->author->name }}</a>
+        <h1 class="mt-6 text-3xl leading-tight font-semibold">{{ $book->localized_title }}</h1>
+        <a href="{{ route('authors.show', $book->author) }}" class="mt-3 inline-block text-lg text-link underline underline-offset-4">{{ $book->author->localized_name }}</a>
         <dl class="my-7 grid grid-cols-2 gap-6 border-y border-line py-5 text-sm sm:grid-cols-4">
             <div><dt class="text-xs text-muted">{{ __('Страна') }}</dt><dd class="mt-2">{{ $book->author->flag }} {{ __($book->author->country ?? '—') }}</dd></div>
             <div><dt class="text-xs text-muted">{{ __('Год') }}</dt><dd class="mt-2">{{ $book->publication_year ?? '—' }}</dd></div>

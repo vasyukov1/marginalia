@@ -13,7 +13,7 @@ class CatalogController extends Controller
     {
         return view('books.index', [
             'books' => Book::forTable($request->validated())->get(),
-            'authors' => Author::orderBy('name_key')->get(),
+            'authors' => Author::all()->sortBy('localized_name')->values(),
             'genres' => Book::whereNotNull('genre')->distinct()->orderBy('genre')->pluck('genre'),
             'filters' => $request->validated(),
         ]);

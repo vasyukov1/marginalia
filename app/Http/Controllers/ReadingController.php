@@ -17,7 +17,7 @@ class ReadingController extends Controller
     {
         return view('readings.create', [
             'books' => Book::with('author')->orderBy('title_key')->get(),
-            'authors' => Author::orderBy('name_key')->get(),
+            'authors' => Author::all()->sortBy('localized_name')->values(),
         ]);
     }
 

@@ -19,7 +19,7 @@ class DashboardController extends Controller
         return view('userzone.dashboard', [
             'user' => $user,
             'books' => $library->forTable($request->validated(), $user->id)->get(),
-            'authors' => $allBooks->pluck('author')->unique('id')->sortBy('name_key'),
+            'authors' => $allBooks->pluck('author')->unique('id')->sortBy('localized_name'),
             'genres' => $allBooks->pluck('genre')->filter()->unique()->sort(),
             'filters' => $request->validated(),
             'stats' => $user->readingStats(),

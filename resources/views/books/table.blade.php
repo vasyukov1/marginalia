@@ -28,9 +28,9 @@
                 <tr class="group even:bg-surface-raised hover:bg-surface-hover">
                     <td class="sheet-number sticky left-0 z-10 border-b border-line bg-surface-raised px-3 py-3 text-right text-xs tabular-nums text-muted group-hover:bg-surface-hover">{{ $loop->iteration }}</td>
                     <th scope="row" class="min-w-72 max-w-md border-b border-l border-line px-4 py-3 font-medium">
-                        <a href="{{ route('books.show', $book) }}" class="hover:text-accent hover:underline underline-offset-4">{{ $book->title }}</a>
+                        <a href="{{ route('books.show', $book) }}" class="hover:text-accent hover:underline underline-offset-4">{{ $book->localized_title }}</a>
                     </th>
-                    <td class="min-w-44 border-b border-l border-line px-4 py-3"><a href="{{ route('authors.show', $book->author) }}" class="text-link underline-offset-4 hover:underline">{{ $book->author->name }}</a></td>
+                    <td class="min-w-44 border-b border-l border-line px-4 py-3"><a href="{{ route('authors.show', $book->author) }}" class="text-link underline-offset-4 hover:underline">{{ $book->author->localized_name }}</a></td>
                     <td class="whitespace-nowrap border-b border-l border-line px-4 py-3"><span aria-hidden="true" class="mr-1.5">{{ $book->author->flag }}</span>{{ __($book->author->country ?? '—') }}</td>
                     <td class="border-b border-l border-line px-4 py-3 text-right tabular-nums">{{ $book->publication_year ?? '—' }}</td>
                     <td class="min-w-40 border-b border-l border-line px-4 py-3 text-muted">{{ __($book->genre ?? '—') }}</td>

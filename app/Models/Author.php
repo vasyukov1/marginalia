@@ -16,7 +16,7 @@ class Author extends Model
     use HasFactory;
 
     /** @var list<string> */
-    protected $fillable = ['name', 'country'];
+    protected $fillable = ['name', 'name_en', 'country'];
 
     protected function name(): Attribute
     {
@@ -25,6 +25,15 @@ class Author extends Model
                 'name' => Str::squish($value),
                 'name_key' => Str::lower(Str::squish($value)),
             ],
+        );
+    }
+
+    protected function localizedName(): Attribute
+    {
+        return Attribute::make(
+            get: fn (): string => app()->getLocale() === 'en' && $this->name_en
+                ? $this->name_en
+                : $this->name,
         );
     }
 

@@ -27,7 +27,7 @@
                 <select id="book_id" name="book_id" class="table-filter w-full" :disabled="mode !== 'existing'" :required="mode === 'existing'">
                     <option value="">{{ __('Выберите книгу') }}</option>
                     @foreach ($books as $book)
-                        <option value="{{ $book->id }}" @selected(old('book_id') == $book->id)>{{ $book->title }} — {{ $book->author->name }}</option>
+                        <option value="{{ $book->id }}" @selected(old('book_id') == $book->id)>{{ $book->localized_title }} — {{ $book->author->localized_name }}</option>
                     @endforeach
                 </select>
             </div>
