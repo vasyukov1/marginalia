@@ -4,7 +4,7 @@
     </div>
 
     @if (session('status') == 'verification-link-sent')
-        <div class="mb-4 font-medium text-sm text-green-300">
+        <div class="mb-4 font-medium text-sm text-green-700">
             {{ __('A new verification link has been sent to the email address you provided during registration.') }}
         </div>
     @endif
@@ -23,7 +23,7 @@
         <form method="POST" action="{{ route('logout') }}">
             @csrf
 
-            <button type="submit" class="underline text-sm text-muted hover:text-ink rounded-md focus:outline-hidden focus:ring-2 focus:ring-offset-2 focus:ring-accent">
+            <button type="submit" class="underline text-sm text-muted hover:text-ink rounded-xl focus:outline-hidden focus:ring-2 focus:ring-offset-2 focus:ring-accent">
                 {{ __('Log Out') }}
             </button>
         </form>

@@ -20,7 +20,7 @@
             <p class="mb-7 text-sm text-muted">ISBN: {{ $book->isbn }}</p>
         @endif
         @auth
-            <section class="rounded-md border border-line bg-surface p-5 sm:p-7">
+            <section class="rounded-xl border border-line bg-surface p-5 sm:p-7">
                 <h2 class="mb-5 text-xl font-semibold">{{ $reading ? __('Ваша запись о чтении') : __('Отметить прочитанной') }}</h2>
                 <form method="POST" action="{{ route('readings.update', $book) }}" class="space-y-5">
                     @csrf
@@ -53,7 +53,7 @@
                     <form method="POST" action="{{ route('readings.destroy', $book) }}" class="mt-5">
                         @csrf
                         @method('DELETE')
-                        <button class="text-sm text-red-300 underline underline-offset-4">{{ __('Убрать из прочитанных') }}</button>
+                        <button class="text-sm text-red-700 underline underline-offset-4">{{ __('Убрать из прочитанных') }}</button>
                     </form>
                 @endif
             </section>

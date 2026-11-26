@@ -4,9 +4,9 @@
 
 @section('content')
     <h1 class="mb-5 text-2xl font-semibold">{{ __('Авторы') }}</h1>
-    <div role="region" aria-label="{{ __('Таблица авторов') }}" tabindex="0" class="overflow-auto rounded-md border border-line bg-surface">
+    <div role="region" aria-label="{{ __('Таблица авторов') }}" tabindex="0" class="overflow-auto rounded-xl border border-line bg-surface">
         <table class="w-full min-w-[600px] text-left text-sm">
-            <thead class="bg-accent text-xs text-canvas">
+            <thead class="bg-brand text-xs text-canvas">
                 <tr><th scope="col" class="px-4 py-3">{{ __('Автор') }}</th><th scope="col" class="px-4 py-3">{{ __('Страна') }}</th><th scope="col" class="px-4 py-3 text-right">{{ __('Книг в каталоге') }}</th>
                     @auth<th scope="col" class="px-4 py-3 text-right">{{ __('Вы прочитали') }}</th><th scope="col" class="px-4 py-3 text-right">{{ __('Ваша средняя оценка') }}</th>@endauth
                 </tr>

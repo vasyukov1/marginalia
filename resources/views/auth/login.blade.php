@@ -3,7 +3,7 @@
 @section('title', __('Вход'))
 
 @section('content')
-    <div class="mx-auto mt-6 max-w-md rounded-md border border-line bg-surface p-7">
+    <div class="mx-auto mt-6 max-w-md rounded-xl border border-line bg-surface p-7">
         <h1 class="mb-6 text-2xl font-semibold">{{ __('Вход') }}</h1>
         <x-breeze.auth-session-status class="mb-4" :status="session('status')" />
         <form method="POST" action="{{ route('login') }}" class="space-y-5">

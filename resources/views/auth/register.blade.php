@@ -3,7 +3,7 @@
 @section('title', __('Регистрация'))
 
 @section('content')
-    <div class="mx-auto mt-6 max-w-md rounded-md border border-line bg-surface p-7">
+    <div class="mx-auto mt-6 max-w-md rounded-xl border border-line bg-surface p-7">
         <h1 class="mb-6 text-2xl font-semibold">{{ __('Регистрация') }}</h1>
         <form method="POST" action="{{ route('register') }}" class="space-y-5">
             @csrf

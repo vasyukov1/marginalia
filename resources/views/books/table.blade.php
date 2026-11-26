@@ -4,19 +4,19 @@
         $columns += ['period' => __('Прочитано'), 'rating' => __('Оценка / 10')];
     }
 @endphp
-<div role="region" aria-label="{{ __('Таблица книг') }}" tabindex="0" class="book-sheet overflow-auto rounded-md border border-line bg-surface focus-visible:outline-2 focus-visible:outline-accent">
+<div role="region" aria-label="{{ __('Таблица книг') }}" tabindex="0" class="book-sheet overflow-auto rounded-xl border border-line bg-surface focus-visible:outline-2 focus-visible:outline-accent">
     <table class="w-full border-separate border-spacing-0 text-left text-sm">
         <caption class="sr-only">{{ __('Книги. Нажмите на заголовок столбца для сортировки.') }}</caption>
         <thead>
             <tr>
-                <th scope="col" class="sheet-number sticky top-0 left-0 z-30 bg-accent px-3 py-3 text-right text-xs font-medium text-canvas">№</th>
+                <th scope="col" class="sheet-number sticky top-0 left-0 z-30 bg-brand px-3 py-3 text-right text-xs font-medium text-canvas">№</th>
                 @foreach ($columns as $key => $label)
                     @php
                         $active = ($filters['sort'] ?? 'title') === $key;
                         $direction = $active && ($filters['direction'] ?? 'asc') === 'asc' ? 'desc' : 'asc';
                     @endphp
-                    <th scope="col" aria-sort="{{ $active ? (($filters['direction'] ?? 'asc') === 'asc' ? 'ascending' : 'descending') : 'none' }}" class="sticky top-0 z-20 border-b border-l border-line bg-accent text-xs font-semibold text-canvas">
-                        <a href="{{ url()->query(url()->current(), array_merge($filters, ['sort' => $key, 'direction' => $direction])) }}" class="flex items-center justify-between gap-4 whitespace-nowrap px-4 py-3 hover:bg-accent-hover" aria-label="{{ $label }}: {{ $direction === 'asc' ? __('по возрастанию') : __('по убыванию') }}">
+                    <th scope="col" aria-sort="{{ $active ? (($filters['direction'] ?? 'asc') === 'asc' ? 'ascending' : 'descending') : 'none' }}" class="sticky top-0 z-20 border-b border-l border-line bg-brand text-xs font-semibold text-canvas">
+                        <a href="{{ url()->query(url()->current(), array_merge($filters, ['sort' => $key, 'direction' => $direction])) }}" class="flex items-center justify-between gap-4 whitespace-nowrap px-4 py-3 hover:bg-brand-hover" aria-label="{{ $label }}: {{ $direction === 'asc' ? __('по возрастанию') : __('по убыванию') }}">
                             {{ $label }} <span aria-hidden="true" class="{{ $active ? 'text-canvas' : 'text-canvas/60' }}">{{ $active ? (($filters['direction'] ?? 'asc') === 'asc' ? '↑' : '↓') : '↕︎' }}</span>
                         </a>
                     </th>

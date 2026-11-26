@@ -38,5 +38,5 @@
     @endif
 </form>
 @if ($errors->any())
-    <p role="alert" class="mb-4 text-sm text-red-300">{{ $errors->first() }}</p>
+    <p role="alert" class="mb-4 text-sm text-red-700">{{ $errors->first() }}</p>
 @endif

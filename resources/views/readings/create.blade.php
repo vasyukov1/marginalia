@@ -5,11 +5,11 @@
 @section('content')
     <div class="mx-auto max-w-3xl">
         <h1 class="mb-6 text-2xl font-semibold">{{ __('Добавить прочитанную книгу') }}</h1>
-        <form method="POST" action="{{ route('readings.store') }}" class="space-y-6 rounded-md border border-line bg-surface p-5 sm:p-7"
+        <form method="POST" action="{{ route('readings.store') }}" class="space-y-6 rounded-xl border border-line bg-surface p-5 sm:p-7"
               x-data="{ mode: @js(old('mode', 'existing')) }">
             @csrf
             @if ($errors->any())
-                <ul class="space-y-1 text-sm text-red-300" role="alert">
+                <ul class="space-y-1 text-sm text-red-700" role="alert">
                     @foreach ($errors->all() as $error)
                         <li>{{ $error }}</li>
                     @endforeach
@@ -40,7 +40,7 @@
                                placeholder="{{ __('Начните вводить…') }}" class="table-filter w-full">
                         <ul id="{{ $field }}-suggestions" role="listbox" aria-label="{{ $label }}" x-cloak
                             x-show="activeField === '{{ $field }}'"
-                            class="absolute z-40 mt-1 max-h-64 w-full overflow-y-auto rounded-md border border-line bg-surface shadow-xl">
+                            class="absolute z-40 mt-1 max-h-64 w-full overflow-y-auto rounded-xl border border-line bg-surface shadow-xl">
                             <template x-for="(item, index) in suggestions('{{ $field }}')" :key="item.id">
                                 <li role="option" :id="'{{ $field }}-option-' + index" :aria-selected="activeIndex === index">
                                     <button type="button" tabindex="-1" @mousedown.prevent @click="choose('{{ $field }}', item)"
@@ -77,7 +77,7 @@
                         @endforeach
                     </datalist>
                 </div>
-                <details @if (old('title_en') || old('author_name_en')) open @endif class="rounded-md border border-line p-4">
+                <details @if (old('title_en') || old('author_name_en')) open @endif class="rounded-xl border border-line p-4">
                     <summary class="cursor-pointer text-sm">{{ __('Английский перевод (необязательно)') }}</summary>
                     <p class="mt-3 text-xs text-muted">{{ __('Без перевода показывается исходное название. Перевод автора сохраняется только для нового автора.') }}</p>
                     <div class="mt-4 grid gap-4 sm:grid-cols-2">
