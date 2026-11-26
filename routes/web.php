@@ -32,6 +32,9 @@ require __DIR__.'/auth.php';
  * Userzone routes
  */
 Route::middleware('auth')->group(function () {
+    Route::get('/books/{book}/edit', [BookController::class, 'edit'])->can('update-book', 'book')->name('books.edit');
+    Route::patch('/books/{book}', [BookController::class, 'update'])->can('update-book', 'book')->name('books.update');
+
     // For the user's dashboard (after login)
     Route::get('/dashboard', DashboardController::class)->name('dashboard');
 

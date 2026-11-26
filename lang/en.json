@@ -124,5 +124,11 @@
     "Английский перевод (необязательно)": "English translation (optional)",
     "Без перевода показывается исходное название. Перевод автора сохраняется только для нового автора.": "Without a translation, the original title is shown. The author translation is saved only for a new author.",
     "Название на английском": "Title in English",
-    "Автор на английском": "Author in English"
+    "Автор на английском": "Author in English",
+    "Редактировать книгу": "Edit book",
+    "Назад к книге": "Back to book",
+    "Описание": "Description",
+    "Книга обновлена.": "Book updated.",
+    "У этого автора уже есть книга с таким названием.": "This author already has a book with this title.",
+    "Изменения будут видны в общем каталоге. Ваши оценки и заметки сохранятся.": "Changes will appear in the shared catalog. Your ratings and notes will be kept."
 }
