@@ -138,5 +138,7 @@
     "Аватарка": "Avatar",
     "Удалить аватарку": "Remove avatar",
     "JPEG, PNG или WebP. До 2 МБ и 4000 × 4000 пикселей.": "JPEG, PNG or WebP. Up to 2 MB and 4000 × 4000 pixels.",
-    "Не удалось сохранить аватарку. Попробуйте ещё раз.": "Could not save the avatar. Please try again."
+    "Не удалось сохранить аватарку. Попробуйте ещё раз.": "Could not save the avatar. Please try again.",
+    "Продолжить анимацию": "Resume animation",
+    "Приостановить анимацию": "Pause animation"
 }
