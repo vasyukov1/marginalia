@@ -51,7 +51,7 @@ class DatabaseSeeder extends Seeder
             );
         }
 
-        $this->call(CatalogTranslationSeeder::class);
+        $this->call(LibrarySeeder::class);
     }
 
     /**

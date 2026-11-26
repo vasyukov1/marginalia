@@ -1,0 +1,632 @@
+[
+  {
+    "name": "Джоан Роулинг",
+    "name_en": "J. K. Rowling",
+    "wiki": "J. K. Rowling",
+    "image_file": "J._K._Rowling_2010.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/J._K._Rowling_2010.jpg/330px-J._K._Rowling_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:J._K._Rowling_2010.jpg",
+    "portrait_credit": "Daniel Ogren · CC BY 2.0"
+  },
+  {
+    "name": "Майн Рид",
+    "name_en": "Mayne Reid",
+    "wiki": "Mayne Reid",
+    "image_file": "Portrait_of_Thomas_Mayne_Reid,_circa_1850_(cropped).jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Portrait_of_Thomas_Mayne_Reid%2C_circa_1850_%28cropped%29.jpg/330px-Portrait_of_Thomas_Mayne_Reid%2C_circa_1850_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Thomas_Mayne_Reid,_circa_1850_(cropped).jpg",
+    "portrait_credit": "Greening, Publisher · Public domain"
+  },
+  {
+    "name": "Жюль Верн",
+    "name_en": "Jules Verne",
+    "wiki": "Jules Verne",
+    "image_file": "Jules_Verne_by_Étienne_Carjat.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Jules_Verne_by_%C3%89tienne_Carjat.jpg/330px-Jules_Verne_by_%C3%89tienne_Carjat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Jules_Verne_by_%C3%89tienne_Carjat.jpg",
+    "portrait_credit": "Étienne Carjat / Adam Cuerden · Public domain"
+  },
+  {
+    "name": "Джек Лондон",
+    "name_en": "Jack London",
+    "wiki": "Jack London",
+    "image_file": "Jack_London_young.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Jack_London_young.jpg/330px-Jack_London_young.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Jack_London_young.jpg",
+    "portrait_credit": "published by L C Page and Company Boston 1903 · Public domain"
+  },
+  {
+    "name": "Рафаэль Сабатини",
+    "name_en": "Rafael Sabatini",
+    "wiki": "Rafael Sabatini",
+    "image_file": "Portrait_of_Rafael_Sabatini.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Portrait_of_Rafael_Sabatini.jpg/330px-Portrait_of_Rafael_Sabatini.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Rafael_Sabatini.jpg",
+    "portrait_credit": "not stated · Public domain"
+  },
+  {
+    "name": "Герберт Уэллс",
+    "name_en": "H. G. Wells",
+    "wiki": "H. G. Wells",
+    "image_file": "H.G._Wells_by_Beresford.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/H.G._Wells_by_Beresford.jpg/330px-H.G._Wells_by_Beresford.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:H.G._Wells_by_Beresford.jpg",
+    "portrait_credit": "George Charles Beresford · Public domain"
+  },
+  {
+    "name": "Д. Фенимор Купер",
+    "name_en": "James Fenimore Cooper",
+    "wiki": "James Fenimore Cooper",
+    "image_file": "James_Fenimore_Cooper_by_Brady.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/James_Fenimore_Cooper_by_Brady.jpg/330px-James_Fenimore_Cooper_by_Brady.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:James_Fenimore_Cooper_by_Brady.jpg",
+    "portrait_credit": "Mathew Benjamin Brady · Public domain"
+  },
+  {
+    "name": "Джонатан Свифт",
+    "name_en": "Jonathan Swift",
+    "wiki": "Jonathan Swift",
+    "image_file": "Jonathan_Swift_by_Charles_Jervas.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Jonathan_Swift_by_Charles_Jervas.jpg/330px-Jonathan_Swift_by_Charles_Jervas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Jonathan_Swift_by_Charles_Jervas.jpg",
+    "portrait_credit": "Charles Jervas · Public domain"
+  },
+  {
+    "name": "Артур Конан Дойл",
+    "name_en": "Arthur Conan Doyle",
+    "wiki": "Arthur Conan Doyle",
+    "image_file": "Arthur_Conan_Doyle_by_Walter_Benington,_1914.png",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Arthur_Conan_Doyle_by_Walter_Benington%2C_1914.png/330px-Arthur_Conan_Doyle_by_Walter_Benington%2C_1914.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Arthur_Conan_Doyle_by_Walter_Benington,_1914.png",
+    "portrait_credit": "Walter Benington · Public domain"
+  },
+  {
+    "name": "Рэй Брэдбери",
+    "name_en": "Ray Bradbury",
+    "wiki": "Ray Bradbury",
+    "image_file": "Ray_Bradbury_(1975)_-cropped-.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Ray_Bradbury_%281975%29_-cropped-.jpg/330px-Ray_Bradbury_%281975%29_-cropped-.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Ray_Bradbury_(1975)_-cropped-.jpg",
+    "portrait_credit": "Alan Light · CC BY 2.0"
+  },
+  {
+    "name": "Василь Быков",
+    "name_en": "Vasil Bykaŭ",
+    "wiki": "Vasil Bykaŭ",
+    "image_file": "Vasil_Bykov_(cropped).jpg",
+    "portrait_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Vasil_Bykov_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Vasil_Bykov_(cropped).jpg",
+    "portrait_credit": "Unknown authorUnknown author · Public domain"
+  },
+  {
+    "name": "Марио Пьюзо",
+    "name_en": "Mario Puzo",
+    "wiki": "Mario Puzo",
+    "image_file": "Mario_Puzo_1972_(cropped).jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Mario_Puzo_1972_%28cropped%29.jpg/330px-Mario_Puzo_1972_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Mario_Puzo_1972_(cropped).jpg",
+    "portrait_credit": "Bernard Gotfryd · Public domain"
+  },
+  {
+    "name": "Джером Сэлинджер",
+    "name_en": "J. D. Salinger",
+    "wiki": "J. D. Salinger",
+    "image_file": "J._D._Salinger_(Catcher_in_the_Rye_portrait).jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/J._D._Salinger_%28Catcher_in_the_Rye_portrait%29.jpg/330px-J._D._Salinger_%28Catcher_in_the_Rye_portrait%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:J._D._Salinger_(Catcher_in_the_Rye_portrait).jpg",
+    "portrait_credit": "Lotte Jacobi · Public domain"
+  },
+  {
+    "name": "Ф. Скотт Фицджеральд",
+    "name_en": "F. Scott Fitzgerald",
+    "wiki": "F. Scott Fitzgerald",
+    "image_file": "F._Scott_Fitzgerald_(1921_portrait_-_crop)_Retouched.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/F._Scott_Fitzgerald_%281921_portrait_-_crop%29_Retouched.jpg/330px-F._Scott_Fitzgerald_%281921_portrait_-_crop%29_Retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:F._Scott_Fitzgerald_(1921_portrait_-_crop)_Retouched.jpg",
+    "portrait_credit": "Photographer unknown. The publicity photo was distributed by Fitzgerald's publisher, Scribner's (source: Curtis, William (April 15, 1922). \"Some Recent Books\". Town & Country, Vol. LXXIX, pp. 62, 76; see photo caption). First known publication in The World's Work monthly magazine. · Public domain"
+  },
+  {
+    "name": "Агата Кристи",
+    "name_en": "Agatha Christie",
+    "wiki": "Agatha Christie",
+    "image_file": "Agatha_Christie_in_Nederland_(detectiveschrijfster),_bij_aankomst_op_Schiphol_me,_Bestanddeelnr_916-8898_(cropped).jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Agatha_Christie_in_Nederland_%28detectiveschrijfster%29%2C_bij_aankomst_op_Schiphol_me%2C_Bestanddeelnr_916-8898_%28cropped%29.jpg/330px-Agatha_Christie_in_Nederland_%28detectiveschrijfster%29%2C_bij_aankomst_op_Schiphol_me%2C_Bestanddeelnr_916-8898_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Agatha_Christie_in_Nederland_(detectiveschrijfster),_bij_aankomst_op_Schiphol_me,_Bestanddeelnr_916-8898_(cropped).jpg",
+    "portrait_credit": "Joop van Bilsen for Anefo · CC0"
+  },
+  {
+    "name": "Эрнест Хемингуэй",
+    "name_en": "Ernest Hemingway",
+    "wiki": "Ernest Hemingway",
+    "image_file": "ErnestHemingway.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/ErnestHemingway.jpg/330px-ErnestHemingway.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:ErnestHemingway.jpg",
+    "portrait_credit": "Lloyd Arnold · Public domain"
+  },
+  {
+    "name": "Иван Тургенев",
+    "name_en": "Ivan Turgenev",
+    "wiki": "Ivan Turgenev",
+    "image_file": "Turgenev_by_Repin.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Turgenev_by_Repin.jpg/330px-Turgenev_by_Repin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Turgenev_by_Repin.jpg",
+    "portrait_credit": "Ilya Repin · Public domain"
+  },
+  {
+    "name": "Дэн Браун",
+    "name_en": "Dan Brown",
+    "wiki": "Dan Brown",
+    "image_file": "Návštěva_Dana_Browna_v_NK_ČR_17._-_18._2025_03_(cropped).jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/N%C3%A1v%C5%A1t%C4%9Bva_Dana_Browna_v_NK_%C4%8CR_17._-_18._2025_03_%28cropped%29.jpg/330px-N%C3%A1v%C5%A1t%C4%9Bva_Dana_Browna_v_NK_%C4%8CR_17._-_18._2025_03_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:N%C3%A1v%C5%A1t%C4%9Bva_Dana_Browna_v_NK_%C4%8CR_17._-_18._2025_03_(cropped).jpg",
+    "portrait_credit": "Zuzana Homolka Fedorová · CC BY-SA 4.0"
+  },
+  {
+    "name": "Джон Толкин",
+    "name_en": "J. R. R. Tolkien",
+    "wiki": "J. R. R. Tolkien",
+    "image_file": "J._R._R._Tolkien,_ca._1925.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/J._R._R._Tolkien%2C_ca._1925.jpg/330px-J._R._R._Tolkien%2C_ca._1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:J._R._R._Tolkien,_ca._1925.jpg",
+    "portrait_credit": "Unknown photo studio commissioned by Tolkien's students 1925/6 (private communication from Catherine McIlwaine, Tolkien Archivist, Bodleian Library) · Public domain"
+  },
+  {
+    "name": "Джордж Оруэлл",
+    "name_en": "George Orwell",
+    "wiki": "George Orwell",
+    "image_file": "George_Orwell_press_photo.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/George_Orwell_press_photo.jpg/330px-George_Orwell_press_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:George_Orwell_press_photo.jpg",
+    "portrait_credit": "Branch of the National Union of Journalists (BNUJ). · Public domain"
+  },
+  {
+    "name": "Оскар Уайльд",
+    "name_en": "Oscar Wilde",
+    "wiki": "Oscar Wilde",
+    "image_file": "Oscar_Wilde_by_Napoleon_Sarony._Three-quarter-length_photograph,_seated_(cropped).jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Oscar_Wilde_by_Napoleon_Sarony._Three-quarter-length_photograph%2C_seated_%28cropped%29.jpg/330px-Oscar_Wilde_by_Napoleon_Sarony._Three-quarter-length_photograph%2C_seated_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Oscar_Wilde_by_Napoleon_Sarony._Three-quarter-length_photograph,_seated_(cropped).jpg",
+    "portrait_credit": "Napoleon Sarony / Adam Cuerden · Public domain"
+  },
+  {
+    "name": "Евгений Замятин",
+    "name_en": "Yevgeny Zamyatin",
+    "wiki": "Yevgeny Zamyatin",
+    "image_file": "Kustodiev_Zamyatin.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Kustodiev_Zamyatin.jpg/330px-Kustodiev_Zamyatin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Kustodiev_Zamyatin.jpg",
+    "portrait_credit": "Boris Kustodiev · Public domain"
+  },
+  {
+    "name": "Олдос Хаксли",
+    "name_en": "Aldous Huxley",
+    "wiki": "Aldous Huxley",
+    "image_file": "Aldous Huxley 1947.png",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Aldous_Huxley_1947.png/330px-Aldous_Huxley_1947.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Aldous_Huxley_1947.png",
+    "portrait_credit": "AnonymousUnknown author · Public domain"
+  },
+  {
+    "name": "Шон Кови",
+    "name_en": "Sean Covey",
+    "wiki": "Sean Covey",
+    "image_file": null
+  },
+  {
+    "name": "Франц Кафка",
+    "name_en": "Franz Kafka",
+    "wiki": "Franz Kafka",
+    "image_file": "Franz_Kafka,_1923.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Franz_Kafka%2C_1923.jpg/330px-Franz_Kafka%2C_1923.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Franz_Kafka,_1923.jpg",
+    "portrait_credit": "Unknown photographer · Public domain"
+  },
+  {
+    "name": "Максим Котин",
+    "name_en": "Maxim Kotin",
+    "wiki": "Maxim Kotin",
+    "image_file": null
+  },
+  {
+    "name": "Фридрих Ницше",
+    "name_en": "Friedrich Nietzsche",
+    "wiki": "Friedrich Nietzsche",
+    "image_file": "Nietzsche187a.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Nietzsche187a.jpg/330px-Nietzsche187a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Nietzsche187a.jpg",
+    "portrait_credit": "Friedrich Hermann Hartmann · Public domain"
+  },
+  {
+    "name": "Иван Ефремов",
+    "name_en": "Ivan Yefremov",
+    "wiki": "Ivan Yefremov",
+    "image_file": "Иван_Ефремов_1925.jpeg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/%D0%98%D0%B2%D0%B0%D0%BD_%D0%95%D1%84%D1%80%D0%B5%D0%BC%D0%BE%D0%B2_1925.jpeg/330px-%D0%98%D0%B2%D0%B0%D0%BD_%D0%95%D1%84%D1%80%D0%B5%D0%BC%D0%BE%D0%B2_1925.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:%D0%98%D0%B2%D0%B0%D0%BD_%D0%95%D1%84%D1%80%D0%B5%D0%BC%D0%BE%D0%B2_1925.jpeg",
+    "portrait_credit": "Unknown authorUnknown author · Public domain"
+  },
+  {
+    "name": "Паоло Коэльо",
+    "name_en": "Paulo Coelho",
+    "wiki": "Paulo Coelho",
+    "image_file": "Paulo_Coelho,_June_2024.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Paulo_Coelho%2C_June_2024.jpg/330px-Paulo_Coelho%2C_June_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Paulo_Coelho,_June_2024.jpg",
+    "portrait_credit": "Lula Oficial · CC BY-SA 2.0"
+  },
+  {
+    "name": "Энтони Бёрджесс",
+    "name_en": "Anthony Burgess",
+    "wiki": "Anthony Burgess",
+    "image_file": "Anthony_Burgess_appearing_on_\"After_Dark\",_21_May_1988.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Anthony_Burgess_appearing_on_%22After_Dark%22%2C_21_May_1988.jpg/330px-Anthony_Burgess_appearing_on_%22After_Dark%22%2C_21_May_1988.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Anthony_Burgess_appearing_on_%22After_Dark%22,_21_May_1988.jpg",
+    "portrait_credit": "Open Media Ltd. · CC BY-SA 3.0"
+  },
+  {
+    "name": "Лао-цзы",
+    "name_en": "Laozi",
+    "wiki": "Laozi",
+    "image_file": "Laozi_(Chinese_characters).svg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Laozi_%28Chinese_characters%29.svg/330px-Laozi_%28Chinese_characters%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Laozi_(Chinese_characters).svg",
+    "portrait_credit": "White whirlwind · Public domain"
+  },
+  {
+    "name": "Владимир Набоков",
+    "name_en": "Vladimir Nabokov",
+    "wiki": "Vladimir Nabokov",
+    "image_file": "Vladimir_Nabokov_1973.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Vladimir_Nabokov_1973.jpg/330px-Vladimir_Nabokov_1973.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Vladimir_Nabokov_1973.jpg",
+    "portrait_credit": "Walter Mori (Mondadori Publishers) · Public domain"
+  },
+  {
+    "name": "Михаил Шолохов",
+    "name_en": "Mikhail Sholokhov",
+    "wiki": "Mikhail Sholokhov",
+    "image_file": "Mikhail_Sholokhov_1960.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Mikhail_Sholokhov_1960.jpg/330px-Mikhail_Sholokhov_1960.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Mikhail_Sholokhov_1960.jpg",
+    "portrait_credit": "Unknown authorUnknown author · Public domain"
+  },
+  {
+    "name": "Михаил Булгаков",
+    "name_en": "Mikhail Bulgakov",
+    "wiki": "Mikhail Bulgakov",
+    "image_file": "Михаил-Булгаков.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB-%D0%91%D1%83%D0%BB%D0%B3%D0%B0%D0%BA%D0%BE%D0%B2.jpg/330px-%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB-%D0%91%D1%83%D0%BB%D0%B3%D0%B0%D0%BA%D0%BE%D0%B2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB-%D0%91%D1%83%D0%BB%D0%B3%D0%B0%D0%BA%D0%BE%D0%B2.jpg",
+    "portrait_credit": "Moisej Nappelbaum · Public domain"
+  },
+  {
+    "name": "Антон Чехов",
+    "name_en": "Anton Chekhov",
+    "wiki": "Anton Chekhov",
+    "image_file": "Anton_Chekhov_1889.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Anton_Chekhov_1889.jpg/330px-Anton_Chekhov_1889.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Anton_Chekhov_1889.jpg",
+    "portrait_credit": "V. Chekhovskii, Moscow · Public domain"
+  },
+  {
+    "name": "Николай Гоголь",
+    "name_en": "Nikolai Gogol",
+    "wiki": "Nikolai Gogol",
+    "image_file": "NV_Gogol.png",
+    "portrait_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/NV_Gogol.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:NV_Gogol.png",
+    "portrait_credit": "Sergey Lvovich Levitsky · Public domain"
+  },
+  {
+    "name": "Джейн Остин",
+    "name_en": "Jane Austen",
+    "wiki": "Jane Austen",
+    "image_file": "CassandraAusten-JaneAusten(c.1810)_hires.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/CassandraAusten-JaneAusten%28c.1810%29_hires.jpg/330px-CassandraAusten-JaneAusten%28c.1810%29_hires.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:CassandraAusten-JaneAusten(c.1810)_hires.jpg",
+    "portrait_credit": "Cassandra Austen · Public domain"
+  },
+  {
+    "name": "Уильям Голдинг",
+    "name_en": "William Golding",
+    "wiki": "William Golding",
+    "image_file": "William_Golding_1983.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/William_Golding_1983.jpg/330px-William_Golding_1983.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:William_Golding_1983.jpg",
+    "portrait_credit": "Unknown authorUnknown author · CC BY-SA 3.0 nl"
+  },
+  {
+    "name": "Сергей Довлатов",
+    "name_en": "Sergei Dovlatov",
+    "wiki": "Sergei Dovlatov",
+    "image_file": null
+  },
+  {
+    "name": "Виктор Франкл",
+    "name_en": "Viktor Frankl",
+    "wiki": "Viktor Frankl",
+    "image_file": "Viktor_Frankl2.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Viktor_Frankl2.jpg/330px-Viktor_Frankl2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Viktor_Frankl2.jpg",
+    "portrait_credit": "Prof. Dr. Franz Vesely · CC BY-SA 3.0 de"
+  },
+  {
+    "name": "А. де Сент-Экзюпери",
+    "name_en": "Antoine de Saint-Exupéry",
+    "wiki": "Antoine de Saint-Exupéry",
+    "image_file": "Antoine_de_Saint-Euxpery_(1920).jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Antoine_de_Saint-Euxpery_%281920%29.jpg/330px-Antoine_de_Saint-Euxpery_%281920%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Antoine_de_Saint-Euxpery_(1920).jpg",
+    "portrait_credit": "Unknown authorUnknown author · Public domain"
+  },
+  {
+    "name": "Стивен Кинг",
+    "name_en": "Stephen King",
+    "wiki": "Stephen King",
+    "image_file": "Stephen_King_at_the_2024_Toronto_International_Film_Festival_2_(cropped).jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Stephen_King_at_the_2024_Toronto_International_Film_Festival_2_%28cropped%29.jpg/330px-Stephen_King_at_the_2024_Toronto_International_Film_Festival_2_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Stephen_King_at_the_2024_Toronto_International_Film_Festival_2_(cropped).jpg",
+    "portrait_credit": "Kevin Payravi · CC BY-SA 4.0"
+  },
+  {
+    "name": "Виктор Пелевин",
+    "name_en": "Viktor Pelevin",
+    "wiki": "Viktor Pelevin",
+    "image_file": "Victor Pelevin (NEWSru.com, 2002).jpg",
+    "portrait_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Victor_Pelevin_%28NEWSru.com%2C_2002%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Victor_Pelevin_(NEWSru.com,_2002).jpg",
+    "portrait_credit": "NEWSru.com · CC BY 4.0"
+  },
+  {
+    "name": "Дэниел Киз",
+    "name_en": "Daniel Keyes",
+    "wiki": "Daniel Keyes",
+    "image_file": "Daniel Keyes.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Daniel_Keyes.jpg/330px-Daniel_Keyes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Daniel_Keyes.jpg",
+    "portrait_credit": "Briscoe Goodhart · CC BY-SA 4.0"
+  },
+  {
+    "name": "Курт Воннегут",
+    "name_en": "Kurt Vonnegut",
+    "wiki": "Kurt Vonnegut",
+    "image_file": "Kurt_Vonnegut_by_Bernard_Gotfryd_(1965).jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Kurt_Vonnegut_by_Bernard_Gotfryd_%281965%29.jpg/330px-Kurt_Vonnegut_by_Bernard_Gotfryd_%281965%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Kurt_Vonnegut_by_Bernard_Gotfryd_(1965).jpg",
+    "portrait_credit": "Bernard Gotfryd / Adam Cuerden · Public domain"
+  },
+  {
+    "name": "Джон Стейнбек",
+    "name_en": "John Steinbeck",
+    "wiki": "John Steinbeck",
+    "image_file": "John_Steinbeck_1939_(cropped).jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/John_Steinbeck_1939_%28cropped%29.jpg/330px-John_Steinbeck_1939_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:John_Steinbeck_1939_(cropped).jpg",
+    "portrait_credit": "McFadden Publications, Inc.; no photographer credited; photo likely the work of Sonya Noskowiak, as Steinbeck is wearing the same clothes from her 1935 studio session that produced the work shown here: https://www.si.edu/object/npg_NPG.2006.74 · Public domain"
+  },
+  {
+    "name": "Жан-Поль Сартр",
+    "name_en": "Jean-Paul Sartre",
+    "wiki": "Jean-Paul Sartre",
+    "image_file": "Jean_Paul_Sartre_1965.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Jean_Paul_Sartre_1965.jpg/330px-Jean_Paul_Sartre_1965.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Jean_Paul_Sartre_1965.jpg",
+    "portrait_credit": "Unknown authorUnknown author · CC BY-SA 3.0 nl"
+  },
+  {
+    "name": "Альбер Камю",
+    "name_en": "Albert Camus",
+    "wiki": "Albert Camus",
+    "image_file": "Albert_Camus,_gagnant_de_prix_Nobel,_portrait_en_buste,_posé_au_bureau,_faisant_face_à_gauche,_cigarette_de_tabagisme.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Albert_Camus%2C_gagnant_de_prix_Nobel%2C_portrait_en_buste%2C_pos%C3%A9_au_bureau%2C_faisant_face_%C3%A0_gauche%2C_cigarette_de_tabagisme.jpg/330px-Albert_Camus%2C_gagnant_de_prix_Nobel%2C_portrait_en_buste%2C_pos%C3%A9_au_bureau%2C_faisant_face_%C3%A0_gauche%2C_cigarette_de_tabagisme.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Albert_Camus,_gagnant_de_prix_Nobel,_portrait_en_buste,_pos%C3%A9_au_bureau,_faisant_face_%C3%A0_gauche,_cigarette_de_tabagisme.jpg",
+    "portrait_credit": "Photograph by United Press International · Public domain"
+  },
+  {
+    "name": "Харуки Мураками",
+    "name_en": "Haruki Murakami",
+    "wiki": "Haruki Murakami",
+    "image_file": "Conversatorio_Haruki_Murakami_(12_de_12)_(45747009452)_(cropped).jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Conversatorio_Haruki_Murakami_%2812_de_12%29_%2845747009452%29_%28cropped%29.jpg/330px-Conversatorio_Haruki_Murakami_%2812_de_12%29_%2845747009452%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Conversatorio_Haruki_Murakami_(12_de_12)_(45747009452)_(cropped).jpg",
+    "portrait_credit": "Ministerio Cultura y Patrimonio from Quito, Ecuador · Public domain"
+  },
+  {
+    "name": "Милан Кундера",
+    "name_en": "Milan Kundera",
+    "wiki": "Milan Kundera",
+    "image_file": "Milan_Kundera_redux.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Milan_Kundera_redux.jpg/330px-Milan_Kundera_redux.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Milan_Kundera_redux.jpg",
+    "portrait_credit": "Elisa Cabot · CC BY-SA 3.0"
+  },
+  {
+    "name": "Фредерик Бегбедер",
+    "name_en": "Frédéric Beigbeder",
+    "wiki": "Frédéric Beigbeder",
+    "image_file": "Frédéric-Beigbeder.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Fr%C3%A9d%C3%A9ric-Beigbeder.jpg/330px-Fr%C3%A9d%C3%A9ric-Beigbeder.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Fr%C3%A9d%C3%A9ric-Beigbeder.jpg",
+    "portrait_credit": "JFpg · CC BY-SA 3.0"
+  },
+  {
+    "name": "Павел Басинский",
+    "name_en": "Pavel Basinsky",
+    "wiki": "Pavel Basinsky",
+    "image_file": "Pavel_Basinsky_2017.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Pavel_Basinsky_2017.jpg/330px-Pavel_Basinsky_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Pavel_Basinsky_2017.jpg",
+    "portrait_credit": "Svklimkin · CC BY-SA 4.0"
+  },
+  {
+    "name": "Андрей Дороничев",
+    "name_en": "Andrey Doronichev",
+    "wiki": "Andrey Doronichev",
+    "image_file": null
+  },
+  {
+    "name": "Карин Бойе",
+    "name_en": "Karin Boye",
+    "wiki": "Karin Boye",
+    "image_file": "Karin_Boye,_1940s.gif",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Karin_Boye%2C_1940s.gif/330px-Karin_Boye%2C_1940s.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Karin_Boye,_1940s.gif",
+    "portrait_credit": "Ulf Boyes family album. · Public domain"
+  },
+  {
+    "name": "Стругацкие",
+    "name_en": "Arkady and Boris Strugatsky",
+    "wiki": "Arkady and Boris Strugatsky",
+    "image_file": null
+  },
+  {
+    "name": "Айзек Азимов",
+    "name_en": "Isaac Asimov",
+    "wiki": "Isaac Asimov",
+    "image_file": "Isaac.Asimov01.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Isaac.Asimov01.jpg/330px-Isaac.Asimov01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Isaac.Asimov01.jpg",
+    "portrait_credit": "Phillip Leonian [1] from New York World-Telegram & Sun.[2] · Public domain"
+  },
+  {
+    "name": "Станислав Лем",
+    "name_en": "Stanisław Lem",
+    "wiki": "Stanisław Lem",
+    "image_file": "St Lem resize.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/St_Lem_resize.jpg/330px-St_Lem_resize.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:St_Lem_resize.jpg",
+    "portrait_credit": "Courtesy of Lem's secretary, Wojciech Zemek. Resize and digital processing by Masur. · CC BY-SA 3.0"
+  },
+  {
+    "name": "Арнольд Шварценеггер",
+    "name_en": "Arnold Schwarzenegger",
+    "wiki": "Arnold Schwarzenegger",
+    "image_file": "Arnold_Schwarzenegger_-_Austrian_World_Summit_2026_BHO-2906.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Arnold_Schwarzenegger_-_Austrian_World_Summit_2026_BHO-2906.jpg/330px-Arnold_Schwarzenegger_-_Austrian_World_Summit_2026_BHO-2906.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Arnold_Schwarzenegger_-_Austrian_World_Summit_2026_BHO-2906.jpg",
+    "portrait_credit": "Bernhard Holub · CC BY-SA 4.0"
+  },
+  {
+    "name": "Дуглас Адамс",
+    "name_en": "Douglas Adams",
+    "wiki": "Douglas Adams",
+    "image_file": "Douglas_adams_portrait_cropped.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Douglas_adams_portrait_cropped.jpg/330px-Douglas_adams_portrait_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Douglas_adams_portrait_cropped.jpg",
+    "portrait_credit": "Michael Hughes · CC BY-SA 2.0"
+  },
+  {
+    "name": "Уолтер Тевис",
+    "name_en": "Walter Tevis",
+    "wiki": "Walter Tevis",
+    "image_file": null
+  },
+  {
+    "name": "Стивен Хокинг",
+    "name_en": "Stephen Hawking",
+    "wiki": "Stephen Hawking",
+    "image_file": "Stephen_Hawking.StarChild.jpg",
+    "portrait_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Stephen_Hawking.StarChild.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Stephen_Hawking.StarChild.jpg",
+    "portrait_credit": "NASA · Public domain"
+  },
+  {
+    "name": "Александр Дюма",
+    "name_en": "Alexandre Dumas",
+    "wiki": "Alexandre Dumas",
+    "image_file": "Nadar_-_Alexander_Dumas_père_(1802-1870)_-_Google_Art_Project_2.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Nadar_-_Alexander_Dumas_p%C3%A8re_%281802-1870%29_-_Google_Art_Project_2.jpg/330px-Nadar_-_Alexander_Dumas_p%C3%A8re_%281802-1870%29_-_Google_Art_Project_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Nadar_-_Alexander_Dumas_p%C3%A8re_(1802-1870)_-_Google_Art_Project_2.jpg",
+    "portrait_credit": "Nadar · Public domain"
+  },
+  {
+    "name": "Сенека",
+    "name_en": "Seneca the Younger",
+    "wiki": "Seneca the Younger",
+    "image_file": "Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg/330px-Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg",
+    "portrait_credit": "Calidius · CC BY-SA 3.0"
+  },
+  {
+    "name": "Мэттью Уолкер",
+    "name_en": "Matthew Walker (scientist)",
+    "wiki": "Matthew Walker (scientist)",
+    "image_file": "Matt_Scientist_Headshot.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Matt_Scientist_Headshot.jpg/330px-Matt_Scientist_Headshot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Matt_Scientist_Headshot.jpg",
+    "portrait_credit": "Remdreamer · CC BY-SA 4.0"
+  },
+  {
+    "name": "Эрих Мария Ремарк",
+    "name_en": "Erich Maria Remarque",
+    "wiki": "Erich Maria Remarque",
+    "image_file": "Bundesarchiv_Bild_183-R04034,_Erich_Maria_Remarque_(cropped).jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Bundesarchiv_Bild_183-R04034%2C_Erich_Maria_Remarque_%28cropped%29.jpg/330px-Bundesarchiv_Bild_183-R04034%2C_Erich_Maria_Remarque_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-R04034,_Erich_Maria_Remarque_(cropped).jpg",
+    "portrait_credit": "Unknown authorUnknown author · CC BY-SA 3.0 de"
+  },
+  {
+    "name": "Артур Шопенгауэр",
+    "name_en": "Arthur Schopenhauer",
+    "wiki": "Arthur Schopenhauer",
+    "image_file": "Arthur_Schopenhauer_by_J_Schäfer,_1859b.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859b.jpg/330px-Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Arthur_Schopenhauer_by_J_Sch%C3%A4fer,_1859b.jpg",
+    "portrait_credit": "Johann Schäfer · Public domain"
+  },
+  {
+    "name": "Фёдор Достоевский",
+    "name_en": "Fyodor Dostoevsky",
+    "wiki": "Fyodor Dostoevsky",
+    "image_file": "Vasily_Perov_-_Портрет_Ф.М.Достоевского_-_Google_Art_Project.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Vasily_Perov_-_%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82_%D0%A4.%D0%9C.%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_-_Google_Art_Project.jpg/330px-Vasily_Perov_-_%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82_%D0%A4.%D0%9C.%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Vasily_Perov_-_%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82_%D0%A4.%D0%9C.%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_-_Google_Art_Project.jpg",
+    "portrait_credit": "Vasily Perov · Public domain"
+  },
+  {
+    "name": "Энтони Горовиц",
+    "name_en": "Anthony Horowitz",
+    "wiki": "Anthony Horowitz",
+    "image_file": "Anthony_Horowitz_20221130.jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Anthony_Horowitz_20221130.jpg/330px-Anthony_Horowitz_20221130.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Anthony_Horowitz_20221130.jpg",
+    "portrait_credit": "Edwardx · CC BY-SA 4.0"
+  },
+  {
+    "name": "Лев Толстой",
+    "name_en": "Leo Tolstoy",
+    "wiki": "Leo Tolstoy",
+    "image_file": "Leo_Tolstoy_1908_Portrait_(3x4_cropped).jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Leo_Tolstoy_1908_Portrait_%283x4_cropped%29.jpg/330px-Leo_Tolstoy_1908_Portrait_%283x4_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Leo_Tolstoy_1908_Portrait_(3x4_cropped).jpg",
+    "portrait_credit": "Sergei Prokudin-Gorskii · Public domain"
+  },
+  {
+    "name": "Кен Кизи",
+    "name_en": "Ken Kesey",
+    "wiki": "Ken Kesey",
+    "image_file": "Ken_Kesey_(One_Flew_Over_the_Cuckoo's_Nest_photo).jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Ken_Kesey_%28One_Flew_Over_the_Cuckoo%27s_Nest_photo%29.jpg/330px-Ken_Kesey_%28One_Flew_Over_the_Cuckoo%27s_Nest_photo%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Ken_Kesey_(One_Flew_Over_the_Cuckoo%27s_Nest_photo).jpg",
+    "portrait_credit": "Jacket design by Paul Bacon  Author photo by Hank Kranzler · Public domain"
+  },
+  {
+    "name": "Фрэнк Герберт",
+    "name_en": "Frank Herbert",
+    "wiki": "Frank Herbert",
+    "image_file": "Frank_Herbert_1984_(square).jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Frank_Herbert_1984_%28square%29.jpg/330px-Frank_Herbert_1984_%28square%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Frank_Herbert_1984_(square).jpg",
+    "portrait_credit": "Unknown photographer · Public domain"
+  },
+  {
+    "name": "Харпер Ли",
+    "name_en": "Harper Lee",
+    "wiki": "Harper Lee",
+    "image_file": "Photo_portrait_of_Harper_Lee_(To_Kill_a_Mockingbird_dust_jacket,_1960).jpg",
+    "portrait_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Photo_portrait_of_Harper_Lee_%28To_Kill_a_Mockingbird_dust_jacket%2C_1960%29.jpg/330px-Photo_portrait_of_Harper_Lee_%28To_Kill_a_Mockingbird_dust_jacket%2C_1960%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "portrait_source": "https://commons.wikimedia.org/wiki/File:Photo_portrait_of_Harper_Lee_(To_Kill_a_Mockingbird_dust_jacket,_1960).jpg",
+    "portrait_credit": "Photo credited to Truman Capote. · Public domain"
+  }
+]

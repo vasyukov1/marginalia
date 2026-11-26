@@ -1,0 +1,1919 @@
+[
+  {
+    "title": "Гарри Поттер и философский камень",
+    "author": "Джоан Роулинг",
+    "pages": 396,
+    "country": "Англия",
+    "publication_year": 1997,
+    "genre": "Фантастика",
+    "title_en": null
+  },
+  {
+    "title": "Гарри Поттер и Тайная комната",
+    "author": "Джоан Роулинг",
+    "pages": 471,
+    "country": "Англия",
+    "publication_year": 1998,
+    "genre": "Фантастика",
+    "title_en": null
+  },
+  {
+    "title": "Гарри Поттер и узник Азкабана",
+    "author": "Джоан Роулинг",
+    "pages": 507,
+    "country": "Англия",
+    "publication_year": 1999,
+    "genre": "Фантастика",
+    "title_en": null
+  },
+  {
+    "title": "Гарри Поттер и Кубок огня",
+    "author": "Джоан Роулинг",
+    "pages": 665,
+    "country": "Англия",
+    "publication_year": 2000,
+    "genre": "Фантастика",
+    "title_en": null
+  },
+  {
+    "title": "Гарри Поттер и Орден Феникса",
+    "author": "Джоан Роулинг",
+    "pages": 824,
+    "country": "Англия",
+    "publication_year": 2003,
+    "genre": "Фантастика",
+    "title_en": null
+  },
+  {
+    "title": "Гарри Поттер и Принц-полукровка",
+    "author": "Джоан Роулинг",
+    "pages": 665,
+    "country": "Англия",
+    "publication_year": 2005,
+    "genre": "Фантастика",
+    "title_en": null
+  },
+  {
+    "title": "Гарри Поттер и Дары смерти",
+    "author": "Джоан Роулинг",
+    "pages": 634,
+    "country": "Англия",
+    "publication_year": 2007,
+    "genre": "Фантастика",
+    "title_en": null
+  },
+  {
+    "title": "Всадник без головы",
+    "author": "Майн Рид",
+    "pages": 455,
+    "country": "Англия",
+    "publication_year": 1865,
+    "genre": "Приключения",
+    "title_en": null
+  },
+  {
+    "title": "Охотники за жирафами",
+    "author": "Майн Рид",
+    "pages": 209,
+    "country": "Англия",
+    "publication_year": 1867,
+    "genre": "Приключения",
+    "title_en": null
+  },
+  {
+    "title": "Оцеола, вождь семинолов",
+    "author": "Майн Рид",
+    "pages": 366,
+    "country": "Англия",
+    "publication_year": 1859,
+    "genre": "Приключения",
+    "title_en": null
+  },
+  {
+    "title": "Вокруг света за 80 дней",
+    "author": "Жюль Верн",
+    "pages": 180,
+    "country": "Франция",
+    "publication_year": 1873,
+    "genre": "Приключения",
+    "title_en": null
+  },
+  {
+    "title": "Жак Депар",
+    "author": "Майн Рид",
+    "pages": 23,
+    "country": "Англия",
+    "publication_year": 1861,
+    "genre": "Приключения",
+    "title_en": null
+  },
+  {
+    "title": "Жизнь у индейцев",
+    "author": "Майн Рид",
+    "pages": 27,
+    "country": "Англия",
+    "publication_year": 1861,
+    "genre": "Приключения",
+    "title_en": null
+  },
+  {
+    "title": "Отважная охотница",
+    "author": "Майн Рид",
+    "pages": 247,
+    "country": "Англия",
+    "publication_year": 1861,
+    "genre": "Приключения",
+    "title_en": null
+  },
+  {
+    "title": "Охотник на бобров",
+    "author": "Майн Рид",
+    "pages": 51,
+    "country": "Англия",
+    "publication_year": 1867,
+    "genre": "Приключения",
+    "title_en": null
+  },
+  {
+    "title": "Рассказы",
+    "author": "Майн Рид",
+    "pages": 9,
+    "country": "Англия",
+    "publication_year": 1880,
+    "genre": "Приключения",
+    "title_en": null
+  },
+  {
+    "title": "Мартин Иден",
+    "author": "Джек Лондон",
+    "pages": 281,
+    "country": "США",
+    "publication_year": 1909,
+    "genre": "Драма",
+    "title_en": null
+  },
+  {
+    "title": "Одиссея капитана Блада",
+    "author": "Рафаэль Сабатини",
+    "pages": 323,
+    "country": "Италия",
+    "publication_year": 1922,
+    "genre": "Морские приключения",
+    "title_en": null
+  },
+  {
+    "title": "В дебрях Южной Африки, или Приключения Бура и его семьи",
+    "author": "Майн Рид",
+    "pages": 208,
+    "country": "Англия",
+    "publication_year": 1855,
+    "genre": "Приключения",
+    "title_en": null
+  },
+  {
+    "title": "Хроника капитана Блада",
+    "author": "Рафаэль Сабатини",
+    "pages": 225,
+    "country": "Италия",
+    "publication_year": 1931,
+    "genre": "Морские приключения",
+    "title_en": null
+  },
+  {
+    "title": "Юные охотники, или Повесть о приключениях в Южной Африке",
+    "author": "Майн Рид",
+    "pages": 194,
+    "country": "Англия",
+    "publication_year": 1856,
+    "genre": "Приключения",
+    "title_en": null
+  },
+  {
+    "title": "Пятнадцатилетний капитан",
+    "author": "Жюль Верн",
+    "pages": 297,
+    "country": "Франция",
+    "publication_year": 1878,
+    "genre": "Морские приключения",
+    "title_en": null
+  },
+  {
+    "title": "Война миров",
+    "author": "Герберт Уэллс",
+    "pages": 147,
+    "country": "Англия",
+    "publication_year": 1898,
+    "genre": "Научная фантастика",
+    "title_en": "The War of the Worlds"
+  },
+  {
+    "title": "Человек-невидимка",
+    "author": "Герберт Уэллс",
+    "pages": 134,
+    "country": "Англия",
+    "publication_year": 1897,
+    "genre": "Научная фантастика",
+    "title_en": "The Invisible Man"
+  },
+  {
+    "title": "Остров доктора Моро",
+    "author": "Герберт Уэллс",
+    "pages": 113,
+    "country": "Англия",
+    "publication_year": 1896,
+    "genre": "Научная фантастика",
+    "title_en": "The Island of Doctor Moreau"
+  },
+  {
+    "title": "Человек, который мог творить чудеса",
+    "author": "Герберт Уэллс",
+    "pages": 20,
+    "country": "Англия",
+    "publication_year": 1898,
+    "genre": "Научная фантастика",
+    "title_en": null
+  },
+  {
+    "title": "Новейший ускоритель",
+    "author": "Герберт Уэллс",
+    "pages": 16,
+    "country": "Англия",
+    "publication_year": 1901,
+    "genre": "Научная фантастика",
+    "title_en": null
+  },
+  {
+    "title": "Дверь в стене",
+    "author": "Герберт Уэллс",
+    "pages": 20,
+    "country": "Англия",
+    "publication_year": 1906,
+    "genre": "Научная фантастика",
+    "title_en": null
+  },
+  {
+    "title": "Пятьсот миллионов бегумы",
+    "author": "Жюль Верн",
+    "pages": 133,
+    "country": "Франция",
+    "publication_year": 1879,
+    "genre": "Приключения",
+    "title_en": null
+  },
+  {
+    "title": "Морской волчонок, или Путешествие на дне трюма",
+    "author": "Майн Рид",
+    "pages": 200,
+    "country": "Англия",
+    "publication_year": 1859,
+    "genre": "Морские приключения",
+    "title_en": null
+  },
+  {
+    "title": "Переселенцы Трансвааля",
+    "author": "Майн Рид",
+    "pages": 135,
+    "country": "Англия",
+    "publication_year": 1883,
+    "genre": "Приключения",
+    "title_en": null
+  },
+  {
+    "title": "Белая перчатка",
+    "author": "Майн Рид",
+    "pages": 358,
+    "country": "Англия",
+    "publication_year": 1864,
+    "genre": "Приключения",
+    "title_en": null
+  },
+  {
+    "title": "Квартеронка, или Приключения на Дальнем Западе",
+    "author": "Майн Рид",
+    "pages": 313,
+    "country": "Англия",
+    "publication_year": 1856,
+    "genre": "Приключения",
+    "title_en": null
+  },
+  {
+    "title": "Последний из Могикан",
+    "author": "Д. Фенимор Купер",
+    "pages": 410,
+    "country": "США",
+    "publication_year": 1826,
+    "genre": "Приключения",
+    "title_en": null
+  },
+  {
+    "title": "Путешествия Гулливера (1-2 части)",
+    "author": "Джонатан Свифт",
+    "pages": 148,
+    "country": "Ирландия",
+    "publication_year": 1726,
+    "genre": "Сатира",
+    "title_en": null
+  },
+  {
+    "title": "Этюд в багровых тонах",
+    "author": "Артур Конан Дойл",
+    "pages": 102,
+    "country": "Англия",
+    "publication_year": 1887,
+    "genre": "Детектив",
+    "title_en": "A Study in Scarlet"
+  },
+  {
+    "title": "Машина времени",
+    "author": "Герберт Уэллс",
+    "pages": 78,
+    "country": "Англия",
+    "publication_year": 1895,
+    "genre": "Научная фантастика",
+    "title_en": "The Time Machine"
+  },
+  {
+    "title": "451° по Фаренгейту",
+    "author": "Рэй Брэдбери",
+    "pages": 130,
+    "country": "США",
+    "publication_year": 1953,
+    "genre": "Антиутопия",
+    "title_en": "Fahrenheit 451"
+  },
+  {
+    "title": "Марсианские хроники",
+    "author": "Рэй Брэдбери",
+    "pages": 185,
+    "country": "США",
+    "publication_year": 1950,
+    "genre": "Научная фантастика",
+    "title_en": "The Martian Chronicles"
+  },
+  {
+    "title": "Сотников",
+    "author": "Василь Быков",
+    "pages": 182,
+    "country": "Беларусь",
+    "publication_year": 1970,
+    "genre": "Военная повесть",
+    "title_en": null
+  },
+  {
+    "title": "Затерянный мир",
+    "author": "Артур Конан Дойл",
+    "pages": 167,
+    "country": "Англия",
+    "publication_year": 1912,
+    "genre": "Приключения",
+    "title_en": "The Lost World"
+  },
+  {
+    "title": "Маракотова бездна",
+    "author": "Артур Конан Дойл",
+    "pages": 63,
+    "country": "Англия",
+    "publication_year": 1929,
+    "genre": "Морские приключения",
+    "title_en": null
+  },
+  {
+    "title": "Рассказы о капитане Шарки",
+    "author": "Артур Конан Дойл",
+    "pages": 44,
+    "country": "Англия",
+    "publication_year": 1897,
+    "genre": "Морские приключения",
+    "title_en": null
+  },
+  {
+    "title": "Мароны",
+    "author": "Майн Рид",
+    "pages": 329,
+    "country": "Англия",
+    "publication_year": 1862,
+    "genre": "Приключения",
+    "title_en": null
+  },
+  {
+    "title": "Знак четырёх",
+    "author": "Артур Конан Дойл",
+    "pages": 102,
+    "country": "Англия",
+    "publication_year": 1890,
+    "genre": "Детектив",
+    "title_en": "The Sign of the Four"
+  },
+  {
+    "title": "Тайна Клумбера",
+    "author": "Артур Конан Дойл",
+    "pages": 114,
+    "country": "Англия",
+    "publication_year": 1888,
+    "genre": "Мистика",
+    "title_en": null
+  },
+  {
+    "title": "Приключения Шерлока Холмса",
+    "author": "Артур Конан Дойл",
+    "pages": 252,
+    "country": "Англия",
+    "publication_year": 1892,
+    "genre": "Детектив",
+    "title_en": "The Adventures of Sherlock Holmes"
+  },
+  {
+    "title": "Крёстный отец",
+    "author": "Марио Пьюзо",
+    "pages": 292,
+    "country": "США",
+    "publication_year": 1969,
+    "genre": "Драма",
+    "title_en": "The Godfather"
+  },
+  {
+    "title": "Собака Баскервилей",
+    "author": "Артур Конан Дойл",
+    "pages": 190,
+    "country": "Англия",
+    "publication_year": 1901,
+    "genre": "Детектив",
+    "title_en": "The Hound of the Baskervilles"
+  },
+  {
+    "title": "Над пропастью во ржи",
+    "author": "Джером Сэлинджер",
+    "pages": 162,
+    "country": "США",
+    "publication_year": 1951,
+    "genre": "Роман",
+    "title_en": "The Catcher in the Rye"
+  },
+  {
+    "title": "Великий Гэтсби",
+    "author": "Ф. Скотт Фицджеральд",
+    "pages": 150,
+    "country": "США",
+    "publication_year": 1925,
+    "genre": "Роман",
+    "title_en": "The Great Gatsby"
+  },
+  {
+    "title": "По эту сторону рая",
+    "author": "Ф. Скотт Фицджеральд",
+    "pages": 252,
+    "country": "США",
+    "publication_year": 1920,
+    "genre": "Роман",
+    "title_en": "This Side of Paradise"
+  },
+  {
+    "title": "Выше стропила, плотники",
+    "author": "Джером Сэлинджер",
+    "pages": 56,
+    "country": "США",
+    "publication_year": 1955,
+    "genre": "Повесть",
+    "title_en": null
+  },
+  {
+    "title": "Симор: введение",
+    "author": "Джером Сэлинджер",
+    "pages": 78,
+    "country": "США",
+    "publication_year": 1959,
+    "genre": "Повесть",
+    "title_en": null
+  },
+  {
+    "title": "Фрэнни и Зуи",
+    "author": "Джером Сэлинджер",
+    "pages": 132,
+    "country": "США",
+    "publication_year": 1961,
+    "genre": "Повесть",
+    "title_en": "Franny and Zooey"
+  },
+  {
+    "title": "Хорошо ловится рыбка-бананка",
+    "author": "Джером Сэлинджер",
+    "pages": 12,
+    "country": "США",
+    "publication_year": 1948,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Лапа-растяпа",
+    "author": "Джером Сэлинджер",
+    "pages": 16,
+    "country": "США",
+    "publication_year": 1948,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Перед самой войной с эскимосами",
+    "author": "Джером Сэлинджер",
+    "pages": 14,
+    "country": "США",
+    "publication_year": 1948,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Человек, который смеялся",
+    "author": "Джером Сэлинджер",
+    "pages": 14,
+    "country": "США",
+    "publication_year": 1949,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "В лодке",
+    "author": "Джером Сэлинджер",
+    "pages": 10,
+    "country": "США",
+    "publication_year": 1949,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Дорогой Эсме с любовью - и всякой мерзостью",
+    "author": "Джером Сэлинджер",
+    "pages": 23,
+    "country": "США",
+    "publication_year": 1950,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "И эти губы, и глаза зелёные",
+    "author": "Джером Сэлинджер",
+    "pages": 11,
+    "country": "США",
+    "publication_year": 1951,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Голубой период де Домье-Смита",
+    "author": "Джером Сэлинджер",
+    "pages": 26,
+    "country": "США",
+    "publication_year": 1952,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Тедди",
+    "author": "Джером Сэлинджер",
+    "pages": 25,
+    "country": "США",
+    "publication_year": 1953,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "В дебрях Борнео, или Приключения потерпевших кораблекрушение",
+    "author": "Майн Рид",
+    "pages": 104,
+    "country": "Англия",
+    "publication_year": 1870,
+    "genre": "Приключения",
+    "title_en": null
+  },
+  {
+    "title": "Пять поросят",
+    "author": "Агата Кристи",
+    "pages": 160,
+    "country": "Англия",
+    "publication_year": 1942,
+    "genre": "Детектив",
+    "title_en": "Five Little Pigs"
+  },
+  {
+    "title": "Алая чума",
+    "author": "Джек Лондон",
+    "pages": 49,
+    "country": "США",
+    "publication_year": 1912,
+    "genre": "Научная фантастика",
+    "title_en": null
+  },
+  {
+    "title": "Дети капитана Гранта",
+    "author": "Жюль Верн",
+    "pages": 582,
+    "country": "Франция",
+    "publication_year": 1868,
+    "genre": "Приключения",
+    "title_en": "In Search of the Castaways"
+  },
+  {
+    "title": "Вино из одуванчиков",
+    "author": "Рэй Брэдбери",
+    "pages": 341,
+    "country": "США",
+    "publication_year": 1957,
+    "genre": "Роман",
+    "title_en": "Dandelion Wine"
+  },
+  {
+    "title": "Старик и море",
+    "author": "Эрнест Хемингуэй",
+    "pages": 55,
+    "country": "США",
+    "publication_year": 1952,
+    "genre": "Морские приключения",
+    "title_en": "The Old Man and the Sea"
+  },
+  {
+    "title": "Зов Кукушки",
+    "author": "Джоан Роулинг",
+    "pages": 466,
+    "country": "Англия",
+    "publication_year": 2013,
+    "genre": "Детектив",
+    "title_en": "The Cuckoo's Calling"
+  },
+  {
+    "title": "Затерянные в океане",
+    "author": "Майн Рид",
+    "pages": 268,
+    "country": "Англия",
+    "publication_year": 1864,
+    "genre": "Морские приключения",
+    "title_en": null
+  },
+  {
+    "title": "Белый Клык",
+    "author": "Джек Лондон",
+    "pages": 194,
+    "country": "США",
+    "publication_year": 1906,
+    "genre": "Приключения",
+    "title_en": "White Fang"
+  },
+  {
+    "title": "Отцы и дети",
+    "author": "Иван Тургенев",
+    "pages": 187,
+    "country": "Россия",
+    "publication_year": 1862,
+    "genre": "Роман",
+    "title_en": "Fathers and Sons"
+  },
+  {
+    "title": "Двадцать тысяч лье под водой",
+    "author": "Жюль Верн",
+    "pages": 428,
+    "country": "Франция",
+    "publication_year": 1869,
+    "genre": "Морские приключения",
+    "title_en": "Twenty Thousand Leagues Under the Seas"
+  },
+  {
+    "title": "Код да Винчи",
+    "author": "Дэн Браун",
+    "pages": 534,
+    "country": "США",
+    "publication_year": 2003,
+    "genre": "Детектив",
+    "title_en": "The Da Vinci Code"
+  },
+  {
+    "title": "Канун всех святых",
+    "author": "Рэй Брэдбери",
+    "pages": 184,
+    "country": "США",
+    "publication_year": 1972,
+    "genre": "Фантастика",
+    "title_en": null
+  },
+  {
+    "title": "Властелин колец: Братство Кольца",
+    "author": "Джон Толкин",
+    "pages": 536,
+    "country": "Англия",
+    "publication_year": 1954,
+    "genre": "Приключения",
+    "title_en": "The Fellowship of the Ring"
+  },
+  {
+    "title": "1984",
+    "author": "Джордж Оруэлл",
+    "pages": 187,
+    "country": "Англия",
+    "publication_year": 1949,
+    "genre": "Антиутопия",
+    "title_en": "Nineteen Eighty-Four"
+  },
+  {
+    "title": "Пища богов",
+    "author": "Герберт Уэллс",
+    "pages": 280,
+    "country": "Англия",
+    "publication_year": 1904,
+    "genre": "Приключения",
+    "title_en": null
+  },
+  {
+    "title": "Портрет Дориана Грея",
+    "author": "Оскар Уайльд",
+    "pages": 256,
+    "country": "Ирландия",
+    "publication_year": 1890,
+    "genre": "Роман",
+    "title_en": "The Picture of Dorian Gray"
+  },
+  {
+    "title": "Властелин колец: Две крепости",
+    "author": "Джон Толкин",
+    "pages": 468,
+    "country": "Англия",
+    "publication_year": 1954,
+    "genre": "Приключения",
+    "title_en": "The Two Towers"
+  },
+  {
+    "title": "Мы",
+    "author": "Евгений Замятин",
+    "pages": 155,
+    "country": "СССР",
+    "publication_year": 1924,
+    "genre": "Антиутопия",
+    "title_en": "We"
+  },
+  {
+    "title": "Армагеддон",
+    "author": "Герберт Уэллс",
+    "pages": 34,
+    "country": "Англия",
+    "publication_year": 1901,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Цветение странной орхидеи",
+    "author": "Герберт Уэллс",
+    "pages": 11,
+    "country": "Англия",
+    "publication_year": 1894,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "В обсерватории Аву",
+    "author": "Герберт Уэллс",
+    "pages": 9,
+    "country": "Англия",
+    "publication_year": 1894,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Скотный двор",
+    "author": "Джордж Оруэлл",
+    "pages": 84,
+    "country": "Англия",
+    "publication_year": 1945,
+    "genre": null,
+    "title_en": "Animal Farm"
+  },
+  {
+    "title": "История Платтнера",
+    "author": "Герберт Уэллс",
+    "pages": 26,
+    "country": "Англия",
+    "publication_year": 1897,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Красная комната",
+    "author": "Герберт Уэллс",
+    "pages": 12,
+    "country": "Англия",
+    "publication_year": 1896,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Препарат под микроскопом",
+    "author": "Герберт Уэллс",
+    "pages": 27,
+    "country": "Англия",
+    "publication_year": 1896,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Сердце мисс Винчельси",
+    "author": "Герберт Уэллс",
+    "pages": 25,
+    "country": "Англия",
+    "publication_year": 1898,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Паучья долина",
+    "author": "Герберт Уэллс",
+    "pages": 16,
+    "country": "Англия",
+    "publication_year": 1903,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Царство муравьёв",
+    "author": "Герберт Уэллс",
+    "pages": 23,
+    "country": "Англия",
+    "publication_year": 1905,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Великолепный костюм",
+    "author": "Герберт Уэллс",
+    "pages": 6,
+    "country": "Англия",
+    "publication_year": 1909,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Кентервильское привидение",
+    "author": "Оскар Уайльд",
+    "pages": 37,
+    "country": "Ирландия",
+    "publication_year": 1887,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Преступление лорда Артура Сэвила",
+    "author": "Оскар Уайльд",
+    "pages": 40,
+    "country": "Ирландия",
+    "publication_year": 1887,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Сфинкс без загадки",
+    "author": "Оскар Уайльд",
+    "pages": 7,
+    "country": "Ирландия",
+    "publication_year": 1891,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Натурщик-миллионер",
+    "author": "Оскар Уайльд",
+    "pages": 8,
+    "country": "Ирландия",
+    "publication_year": 1891,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Властелин колец: Возвращение короля",
+    "author": "Джон Толкин",
+    "pages": 436,
+    "country": "Англия",
+    "publication_year": 1955,
+    "genre": "Приключения",
+    "title_en": "The Return of the King"
+  },
+  {
+    "title": "О дивный новый мир",
+    "author": "Олдос Хаксли",
+    "pages": 187,
+    "country": "Англия",
+    "publication_year": 1932,
+    "genre": "Антиутопия",
+    "title_en": "Brave New World"
+  },
+  {
+    "title": "Белый вождь",
+    "author": "Майн Рид",
+    "pages": 314,
+    "country": "Англия",
+    "publication_year": 1855,
+    "genre": "Приключения",
+    "title_en": null
+  },
+  {
+    "title": "7 навыков высокоэффективных тинейджеров",
+    "author": "Шон Кови",
+    "pages": 296,
+    "country": "США",
+    "publication_year": 1998,
+    "genre": "Саморазвитие",
+    "title_en": null
+  },
+  {
+    "title": "Приговор",
+    "author": "Франц Кафка",
+    "pages": 8,
+    "country": "Австро-Венгрия",
+    "publication_year": 1912,
+    "genre": "Абсурд",
+    "title_en": null
+  },
+  {
+    "title": "Превращение",
+    "author": "Франц Кафка",
+    "pages": 31,
+    "country": "Австро-Венгрия",
+    "publication_year": 1912,
+    "genre": "Абсурд",
+    "title_en": "The Metamorphosis"
+  },
+  {
+    "title": "В исправительной колонии",
+    "author": "Франц Кафка",
+    "pages": 16,
+    "country": "Австро-Венгрия",
+    "publication_year": 1914,
+    "genre": "Абсурд",
+    "title_en": null
+  },
+  {
+    "title": "Додо Книга",
+    "author": "Максим Котин",
+    "pages": 153,
+    "country": "Россия",
+    "publication_year": 2017,
+    "genre": "Саморазвитие",
+    "title_en": null
+  },
+  {
+    "title": "Процесс",
+    "author": "Франц Кафка",
+    "pages": 126,
+    "country": "Австро-Венгрия",
+    "publication_year": 1925,
+    "genre": "Абсурд",
+    "title_en": "The Trial"
+  },
+  {
+    "title": "Так говорил Заратустра. Книга для всех и ни для кого",
+    "author": "Фридрих Ницше",
+    "pages": 232,
+    "country": "Германия",
+    "publication_year": 1885,
+    "genre": "Философия",
+    "title_en": null
+  },
+  {
+    "title": "Подростки",
+    "author": "Джером Сэлинджер",
+    "pages": 7,
+    "country": "США",
+    "publication_year": 1940,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Повидайся с Эдди",
+    "author": "Джером Сэлинджер",
+    "pages": 6,
+    "country": "США",
+    "publication_year": 1940,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Виноват, исправлюсь",
+    "author": "Джером Сэлинджер",
+    "pages": 4,
+    "country": "США",
+    "publication_year": 1941,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Душа несчастливой истории",
+    "author": "Джером Сэлинджер",
+    "pages": 8,
+    "country": "США",
+    "publication_year": 1941,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Затянувшийся дебют Лоис Тэггетт",
+    "author": "Джером Сэлинджер",
+    "pages": 10,
+    "country": "США",
+    "publication_year": 1942,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Неофициальный рапорт об одном пехотинце",
+    "author": "Джером Сэлинджер",
+    "pages": 4,
+    "country": "США",
+    "publication_year": 1942,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Братья Вариони",
+    "author": "Джером Сэлинджер",
+    "pages": 12,
+    "country": "США",
+    "publication_year": 1943,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "По обоюдному согласию",
+    "author": "Джером Сэлинджер",
+    "pages": 9,
+    "country": "США",
+    "publication_year": 1944,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Мягкосердечный сержант",
+    "author": "Джером Сэлинджер",
+    "pages": 8,
+    "country": "США",
+    "publication_year": 1944,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "День перед прощанием",
+    "author": "Джером Сэлинджер",
+    "pages": 14,
+    "country": "США",
+    "publication_year": 1944,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Раз в неделю — тебя не убудет",
+    "author": "Джером Сэлинджер",
+    "pages": 7,
+    "country": "США",
+    "publication_year": 1944,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Час Быка",
+    "author": "Иван Ефремов",
+    "pages": 487,
+    "country": "СССР",
+    "publication_year": 1970,
+    "genre": "Научная фантастика",
+    "title_en": null
+  },
+  {
+    "title": "Элейн",
+    "author": "Джером Сэлинджер",
+    "pages": 14,
+    "country": "США",
+    "publication_year": 1945,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Солдат во Франции",
+    "author": "Джером Сэлинджер",
+    "pages": 5,
+    "country": "США",
+    "publication_year": 1945,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Сельди в бочке",
+    "author": "Джером Сэлинджер",
+    "pages": 10,
+    "country": "США",
+    "publication_year": 1945,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Посторонний",
+    "author": "Джером Сэлинджер",
+    "pages": 9,
+    "country": "США",
+    "publication_year": 1945,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Девчонка без попки в проклятом сорок первом",
+    "author": "Джером Сэлинджер",
+    "pages": 16,
+    "country": "США",
+    "publication_year": 1947,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Опрокинутый лес",
+    "author": "Джером Сэлинджер",
+    "pages": 59,
+    "country": "США",
+    "publication_year": 1947,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Знакомая девчонка",
+    "author": "Джером Сэлинджер",
+    "pages": 11,
+    "country": "США",
+    "publication_year": 1948,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Грустный мотив",
+    "author": "Джером Сэлинджер",
+    "pages": 19,
+    "country": "США",
+    "publication_year": 1948,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Алхимик",
+    "author": "Паоло Коэльо",
+    "pages": 218,
+    "country": "Бразилия",
+    "publication_year": 1988,
+    "genre": "Философия",
+    "title_en": "The Alchemist"
+  },
+  {
+    "title": "Заводной апельсин",
+    "author": "Энтони Бёрджесс",
+    "pages": 147,
+    "country": "Великобритания",
+    "publication_year": 1962,
+    "genre": "Антиутопия",
+    "title_en": "A Clockwork Orange"
+  },
+  {
+    "title": "Замок",
+    "author": "Франц Кафка",
+    "pages": 177,
+    "country": "Австро-Венгрия",
+    "publication_year": 1926,
+    "genre": "Абсурд",
+    "title_en": "The Castle"
+  },
+  {
+    "title": "Дао-Дэ цзин",
+    "author": "Лао-цзы",
+    "pages": 242,
+    "country": "Китай",
+    "publication_year": null,
+    "genre": "Философия",
+    "title_en": null
+  },
+  {
+    "title": "Камера обскура",
+    "author": "Владимир Набоков",
+    "pages": 134,
+    "country": "СССР",
+    "publication_year": 1936,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Судьба человека",
+    "author": "Михаил Шолохов",
+    "pages": 34,
+    "country": "СССР",
+    "publication_year": 1956,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Морфий",
+    "author": "Михаил Булгаков",
+    "pages": 29,
+    "country": "СССР",
+    "publication_year": 1926,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Лето, прощай",
+    "author": "Рэй Брэдбери",
+    "pages": 170,
+    "country": "США",
+    "publication_year": 2006,
+    "genre": null,
+    "title_en": "Farewell Summer"
+  },
+  {
+    "title": "Студент",
+    "author": "Антон Чехов",
+    "pages": 4,
+    "country": "Россия",
+    "publication_year": 1894,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Человек в футляре",
+    "author": "Антон Чехов",
+    "pages": 12,
+    "country": "Россия",
+    "publication_year": 1898,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Крыжовник",
+    "author": "Антон Чехов",
+    "pages": 10,
+    "country": "Россия",
+    "publication_year": 1898,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Смерть чиновника",
+    "author": "Антон Чехов",
+    "pages": 3,
+    "country": "Россия",
+    "publication_year": 1883,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Толстый и тонкий",
+    "author": "Антон Чехов",
+    "pages": 2,
+    "country": "Россия",
+    "publication_year": 1883,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "О любви",
+    "author": "Антон Чехов",
+    "pages": 9,
+    "country": "Россия",
+    "publication_year": 1898,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Хамелеон",
+    "author": "Антон Чехов",
+    "pages": 3,
+    "country": "Россия",
+    "publication_year": 1884,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Записки сумасшедшего",
+    "author": "Николай Гоголь",
+    "pages": 20,
+    "country": "Россия",
+    "publication_year": 1835,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Шинель",
+    "author": "Николай Гоголь",
+    "pages": 29,
+    "country": "Россия",
+    "publication_year": 1843,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Гордость и предубеждение",
+    "author": "Джейн Остин",
+    "pages": 408,
+    "country": "Великобритания",
+    "publication_year": 1797,
+    "genre": null,
+    "title_en": "Pride and Prejudice"
+  },
+  {
+    "title": "Повелитель мух",
+    "author": "Уильям Голдинг",
+    "pages": 176,
+    "country": "Великобритания",
+    "publication_year": 1954,
+    "genre": null,
+    "title_en": "Lord of the Flies"
+  },
+  {
+    "title": "Машенька",
+    "author": "Владимир Набоков",
+    "pages": 82,
+    "country": "СССР",
+    "publication_year": 1926,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Чемодан",
+    "author": "Сергей Довлатов",
+    "pages": 147,
+    "country": "СССР",
+    "publication_year": 1986,
+    "genre": null,
+    "title_en": "The Suitcase"
+  },
+  {
+    "title": "Сказать жизни \"Да!\"",
+    "author": "Виктор Франкл",
+    "pages": 228,
+    "country": "Австрия",
+    "publication_year": 1946,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Произведение искусства",
+    "author": "Антон Чехов",
+    "pages": 4,
+    "country": "Россия",
+    "publication_year": 1886,
+    "genre": "Рассказ",
+    "title_en": null
+  },
+  {
+    "title": "Маленький принц",
+    "author": "А. де Сент-Экзюпери",
+    "pages": 51,
+    "country": "Франция",
+    "publication_year": 1943,
+    "genre": null,
+    "title_en": "The Little Prince"
+  },
+  {
+    "title": "Рита Хейуорт и спасение из Шоушенка",
+    "author": "Стивен Кинг",
+    "pages": 102,
+    "country": "США",
+    "publication_year": 1982,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Ампир V",
+    "author": "Виктор Пелевин",
+    "pages": 442,
+    "country": "Россия",
+    "publication_year": 2006,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Цветы для Элджернона",
+    "author": "Дэниел Киз",
+    "pages": 311,
+    "country": "США",
+    "publication_year": 1959,
+    "genre": null,
+    "title_en": "Flowers for Algernon"
+  },
+  {
+    "title": "Америка",
+    "author": "Франц Кафка",
+    "pages": 354,
+    "country": "Австро-Венгрия",
+    "publication_year": 1914,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Лютый зверь",
+    "author": "Джек Лондон",
+    "pages": 63,
+    "country": "США",
+    "publication_year": 1913,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Смерть - дело одинокое",
+    "author": "Рэй Брэдбери",
+    "pages": 350,
+    "country": "США",
+    "publication_year": 1985,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Завтрак для чемпионов",
+    "author": "Курт Воннегут",
+    "pages": 314,
+    "country": "США",
+    "publication_year": 1973,
+    "genre": null,
+    "title_en": "Breakfast of Champions"
+  },
+  {
+    "title": "Гений и богиня",
+    "author": "Олдос Хаксли",
+    "pages": 84,
+    "country": "Великобритания",
+    "publication_year": 1955,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Письма к Милене",
+    "author": "Франц Кафка",
+    "pages": 284,
+    "country": "Австро-Венгрия",
+    "publication_year": 1952,
+    "genre": "Письма",
+    "title_en": null
+  },
+  {
+    "title": "К востоку от Эдема",
+    "author": "Джон Стейнбек",
+    "pages": 954,
+    "country": "США",
+    "publication_year": 1952,
+    "genre": "Роман",
+    "title_en": "East of Eden"
+  },
+  {
+    "title": "Тошнота",
+    "author": "Жан-Поль Сартр",
+    "pages": 311,
+    "country": "Франция",
+    "publication_year": 1938,
+    "genre": "Роман",
+    "title_en": "Nausea"
+  },
+  {
+    "title": "Ставок больше нет",
+    "author": "Жан-Поль Сартр",
+    "pages": 157,
+    "country": "Франция",
+    "publication_year": 1947,
+    "genre": "Роман",
+    "title_en": null
+  },
+  {
+    "title": "Посторонний",
+    "author": "Альбер Камю",
+    "pages": 102,
+    "country": "Франция",
+    "publication_year": 1940,
+    "genre": "Роман",
+    "title_en": null
+  },
+  {
+    "title": "Недоразумение",
+    "author": "Альбер Камю",
+    "pages": 60,
+    "country": "Франция",
+    "publication_year": 1944,
+    "genre": "Роман",
+    "title_en": null
+  },
+  {
+    "title": "Норвежский лес",
+    "author": "Харуки Мураками",
+    "pages": 357,
+    "country": "Япония",
+    "publication_year": 1987,
+    "genre": "Роман",
+    "title_en": "Norwegian Wood"
+  },
+  {
+    "title": "Смешные любови",
+    "author": "Милан Кундера",
+    "pages": 213,
+    "country": "Чехословакия",
+    "publication_year": 1968,
+    "genre": "Рассказы",
+    "title_en": null
+  },
+  {
+    "title": "Любовь живёт три года",
+    "author": "Фредерик Бегбедер",
+    "pages": 180,
+    "country": "Франция",
+    "publication_year": 1997,
+    "genre": "Роман",
+    "title_en": null
+  },
+  {
+    "title": "Подлинная история Анны Карениной",
+    "author": "Павел Басинский",
+    "pages": 369,
+    "country": "Россия",
+    "publication_year": 2022,
+    "genre": "Анализ книги",
+    "title_en": null
+  },
+  {
+    "title": "Новая версия",
+    "author": "Андрей Дороничев",
+    "pages": 176,
+    "country": "США",
+    "publication_year": 2026,
+    "genre": "Саморазвитие",
+    "title_en": null
+  },
+  {
+    "title": "Каллокаин",
+    "author": "Карин Бойе",
+    "pages": 249,
+    "country": "Швеция",
+    "publication_year": 1940,
+    "genre": "Антиутопия",
+    "title_en": "Kallocain"
+  },
+  {
+    "title": "Чума",
+    "author": "Альбер Камю",
+    "pages": 313,
+    "country": "Франция",
+    "publication_year": 1944,
+    "genre": null,
+    "title_en": "The Plague"
+  },
+  {
+    "title": "Обитаемый остров",
+    "author": "Стругацкие",
+    "pages": null,
+    "country": null,
+    "publication_year": null,
+    "genre": null,
+    "title_en": "The Inhabited Island"
+  },
+  {
+    "title": "Двухсотлетний человек",
+    "author": "Айзек Азимов",
+    "pages": null,
+    "country": null,
+    "publication_year": null,
+    "genre": null,
+    "title_en": "The Bicentennial Man"
+  },
+  {
+    "title": "Пикник на обочине",
+    "author": "Стругацкие",
+    "pages": 253,
+    "country": "СССР",
+    "publication_year": 1972,
+    "genre": null,
+    "title_en": "Roadside Picnic"
+  },
+  {
+    "title": "Солярис",
+    "author": "Станислав Лем",
+    "pages": 284,
+    "country": "Польша",
+    "publication_year": 1961,
+    "genre": null,
+    "title_en": "Solaris"
+  },
+  {
+    "title": "Будь нужным. Семь правил жизни",
+    "author": "Арнольд Шварценеггер",
+    "pages": 224,
+    "country": "США",
+    "publication_year": 2024,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Остров",
+    "author": "Олдос Хаксли",
+    "pages": 358,
+    "country": "Великобритания",
+    "publication_year": 1962,
+    "genre": null,
+    "title_en": "Island"
+  },
+  {
+    "title": "Автостопом по Галактике",
+    "author": "Дуглас Адамс",
+    "pages": 162,
+    "country": "Великобритания",
+    "publication_year": 1979,
+    "genre": null,
+    "title_en": "The Hitchhiker's Guide to the Galaxy"
+  },
+  {
+    "title": "Механическое пианино",
+    "author": "Курт Воннегут",
+    "pages": 313,
+    "country": "США",
+    "publication_year": 1952,
+    "genre": "Антиутопия",
+    "title_en": "Player Piano"
+  },
+  {
+    "title": "1985",
+    "author": "Энтони Бёрджесс",
+    "pages": 413,
+    "country": "Великобритания",
+    "publication_year": 1978,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Ресторан \"У конца Вселенной\"",
+    "author": "Дуглас Адамс",
+    "pages": 150,
+    "country": "Великобритания",
+    "publication_year": 1980,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Ход королевы",
+    "author": "Уолтер Тевис",
+    "pages": 344,
+    "country": "США",
+    "publication_year": 1983,
+    "genre": null,
+    "title_en": "The Queen's Gambit"
+  },
+  {
+    "title": "Краткие ответы на большие вопросы",
+    "author": "Стивен Хокинг",
+    "pages": 238,
+    "country": "Великобритания",
+    "publication_year": 2018,
+    "genre": null,
+    "title_en": "Brief Answers to the Big Questions"
+  },
+  {
+    "title": "Граф Монте-Кристо",
+    "author": "Александр Дюма",
+    "pages": 1236,
+    "country": "Франция",
+    "publication_year": 1846,
+    "genre": null,
+    "title_en": "The Count of Monte Cristo"
+  },
+  {
+    "title": "Бойня номер пять",
+    "author": "Курт Воннегут",
+    "pages": 142,
+    "country": "США",
+    "publication_year": 1969,
+    "genre": null,
+    "title_en": "Slaughterhouse-Five"
+  },
+  {
+    "title": "Колыбель для кошки",
+    "author": "Курт Воннегут",
+    "pages": 167,
+    "country": "США",
+    "publication_year": 1963,
+    "genre": null,
+    "title_en": "Cat's Cradle"
+  },
+  {
+    "title": "О блаженной жизни",
+    "author": "Сенека",
+    "pages": 57,
+    "country": "Италия",
+    "publication_year": 49,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "О скоротечности жизни",
+    "author": "Сенека",
+    "pages": 53,
+    "country": "Италия",
+    "publication_year": 60,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Зачем мы спим. Новая наука о сне и сновидениях",
+    "author": "Мэттью Уолкер",
+    "pages": 459,
+    "country": "Великобритания",
+    "publication_year": 2017,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Три товарища",
+    "author": "Эрих Мария Ремарк",
+    "pages": 477,
+    "country": "Германия",
+    "publication_year": 1936,
+    "genre": null,
+    "title_en": "Three Comrades"
+  },
+  {
+    "title": "Искусство побеждать в спорах",
+    "author": "Артур Шопенгауэр",
+    "pages": 74,
+    "country": "Германия",
+    "publication_year": 1864,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Братья Карамазовы",
+    "author": "Фёдор Достоевский",
+    "pages": null,
+    "country": "Россия",
+    "publication_year": 1880,
+    "genre": null,
+    "title_en": "The Brothers Karamazov"
+  },
+  {
+    "title": "Ночь нежна",
+    "author": "Ф. Скотт Фицджеральд",
+    "pages": 475,
+    "country": "США",
+    "publication_year": 1934,
+    "genre": null,
+    "title_en": "Tender Is the Night"
+  },
+  {
+    "title": "Дочь священника",
+    "author": "Джордж Оруэлл",
+    "pages": 313,
+    "country": "Англия",
+    "publication_year": 1935,
+    "genre": null,
+    "title_en": "A Clergyman's Daughter"
+  },
+  {
+    "title": "Сороки-убийцы",
+    "author": "Энтони Горовиц",
+    "pages": 506,
+    "country": "Великобритания",
+    "publication_year": 2016,
+    "genre": null,
+    "title_en": "Magpie Murders"
+  },
+  {
+    "title": "Сирены Титана",
+    "author": "Курт Воннегут",
+    "pages": 233,
+    "country": "США",
+    "publication_year": 1959,
+    "genre": null,
+    "title_en": "The Sirens of Titan"
+  },
+  {
+    "title": "Обезьяна и сущность",
+    "author": "Олдос Хаксли",
+    "pages": 122,
+    "country": "Великобритания",
+    "publication_year": 1948,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Анна Каренина",
+    "author": "Лев Толстой",
+    "pages": 891,
+    "country": "Россия",
+    "publication_year": 1878,
+    "genre": null,
+    "title_en": "Anna Karenina"
+  },
+  {
+    "title": "Над кукушкиным гнездом",
+    "author": "Кен Кизи",
+    "pages": null,
+    "country": "США",
+    "publication_year": 1962,
+    "genre": null,
+    "title_en": "One Flew Over the Cuckoo's Nest"
+  },
+  {
+    "title": "Люди как боги",
+    "author": "Герберт Уэллс",
+    "pages": 248,
+    "country": "Великобритания",
+    "publication_year": 1923,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Слепец в Газе",
+    "author": "Олдос Хаксли",
+    "pages": null,
+    "country": "Великобритания",
+    "publication_year": 1936,
+    "genre": null,
+    "title_en": null
+  },
+  {
+    "title": "Миф о Сизифе",
+    "author": "Альбер Камю",
+    "pages": 146,
+    "country": "Франция",
+    "publication_year": 1942,
+    "genre": null,
+    "title_en": "The Myth of Sisyphus"
+  },
+  {
+    "title": "Надвигается беда",
+    "author": "Рэй Брэдбери",
+    "pages": 277,
+    "country": "США",
+    "publication_year": 1962,
+    "genre": null,
+    "title_en": "Something Wicked This Way Comes"
+  },
+  {
+    "title": "Преступление и наказание",
+    "title_en": "Crime and Punishment",
+    "author": "Фёдор Достоевский",
+    "country": "Россия",
+    "publication_year": 1866,
+    "genre": "Роман",
+    "pages": null
+  },
+  {
+    "title": "Идиот",
+    "title_en": "The Idiot",
+    "author": "Фёдор Достоевский",
+    "country": "Россия",
+    "publication_year": 1869,
+    "genre": "Роман",
+    "pages": null
+  },
+  {
+    "title": "Война и мир",
+    "title_en": "War and Peace",
+    "author": "Лев Толстой",
+    "country": "Россия",
+    "publication_year": 1869,
+    "genre": "Роман",
+    "pages": null
+  },
+  {
+    "title": "Мастер и Маргарита",
+    "title_en": "The Master and Margarita",
+    "author": "Михаил Булгаков",
+    "country": "СССР",
+    "publication_year": 1967,
+    "genre": "Роман",
+    "pages": null
+  },
+  {
+    "title": "Хоббит, или Туда и обратно",
+    "title_en": "The Hobbit",
+    "author": "Джон Толкин",
+    "country": "Англия",
+    "publication_year": 1937,
+    "genre": "Фантастика",
+    "pages": null
+  },
+  {
+    "title": "Дюна",
+    "title_en": "Dune",
+    "author": "Фрэнк Герберт",
+    "country": "США",
+    "publication_year": 1965,
+    "genre": "Научная фантастика",
+    "pages": null
+  },
+  {
+    "title": "Убить пересмешника",
+    "title_en": "To Kill a Mockingbird",
+    "author": "Харпер Ли",
+    "country": "США",
+    "publication_year": 1960,
+    "genre": "Роман",
+    "pages": null
+  },
+  {
+    "title": "Убийство в Восточном экспрессе",
+    "title_en": "Murder on the Orient Express",
+    "author": "Агата Кристи",
+    "country": "Англия",
+    "publication_year": 1934,
+    "genre": "Детектив",
+    "pages": null
+  }
+]
