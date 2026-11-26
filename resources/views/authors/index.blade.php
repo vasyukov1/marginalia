@@ -14,7 +14,7 @@
             <tbody class="divide-y divide-line">
                 @forelse ($authors as $author)
                     <tr class="even:bg-surface-raised hover:bg-surface-hover">
-                        <th scope="row" class="px-4 py-3 font-medium"><a href="{{ route('authors.show', $author) }}" class="text-link underline-offset-4 hover:underline">{{ $author->localized_name }}</a></th>
+                        <th scope="row" class="px-4 py-3 font-medium"><a href="{{ route('authors.show', $author) }}" class="flex items-center gap-3 text-link underline-offset-4 hover:underline"><x-author-avatar :author="$author" class="size-10" /><span>{{ $author->localized_name }}</span></a></th>
                         <td class="px-4 py-3"><span aria-hidden="true">{{ $author->flag }}</span> {{ __($author->country ?? '—') }}</td>
                         <td class="px-4 py-3 text-right tabular-nums">{{ $author->books_count }}</td>
                         @auth

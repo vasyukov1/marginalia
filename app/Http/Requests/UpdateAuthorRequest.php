@@ -31,6 +31,8 @@ class UpdateAuthorRequest extends FormRequest
             'name' => ['required', 'string', 'max:255'],
             'name_en' => ['nullable', 'string', 'max:255'],
             'country' => ['nullable', 'string', 'max:100'],
+            'avatar' => ['nullable', 'image', 'mimes:jpg,jpeg,png,webp', 'max:2048', 'dimensions:max_width=4000,max_height=4000', 'prohibited_if:remove_avatar,1'],
+            'remove_avatar' => ['sometimes', 'boolean'],
         ];
     }
 
@@ -53,6 +55,6 @@ class UpdateAuthorRequest extends FormRequest
     /** @return array<string, string> */
     public function attributes(): array
     {
-        return ['name' => __('Имя'), 'name_en' => __('Автор на английском'), 'country' => __('Страна')];
+        return ['name' => __('Имя'), 'name_en' => __('Автор на английском'), 'country' => __('Страна'), 'avatar' => __('Аватарка'), 'remove_avatar' => __('Удалить аватарку')];
     }
 }

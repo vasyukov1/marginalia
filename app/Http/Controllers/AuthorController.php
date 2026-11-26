@@ -8,7 +8,10 @@ use App\Models\Author;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Validation\ValidationException;
 use Illuminate\View\View;
+use Throwable;
 
 class AuthorController extends Controller
 {
@@ -43,7 +46,33 @@ class AuthorController extends Controller
 
     public function update(UpdateAuthorRequest $request, Author $author): RedirectResponse
     {
-        $author->update($request->safe()->only(['name', 'name_en', 'country']));
+        $oldPath = $author->avatar_path;
+        $newPath = null;
+        $author->fill($request->safe()->only(['name', 'name_en', 'country']));
+
+        if ($request->hasFile('avatar')) {
+            $newPath = $request->file('avatar')->store('authors', 'public');
+            if ($newPath === false) {
+                throw ValidationException::withMessages(['avatar' => __('Не удалось сохранить аватарку. Попробуйте ещё раз.')]);
+            }
+            $author->avatar_path = $newPath;
+        } elseif ($request->boolean('remove_avatar')) {
+            $author->avatar_path = null;
+        }
+
+        try {
+            $author->save();
+        } catch (Throwable $exception) {
+            if ($newPath !== null) {
+                Storage::disk('public')->delete($newPath);
+            }
+            throw $exception;
+        }
+
+        // Старую картинку удаляем только после успешного сохранения записи.
+        if ($oldPath !== null && $oldPath !== $author->avatar_path) {
+            Storage::disk('public')->delete($oldPath);
+        }
 
         return to_route('authors.show', $author)->with('status', __('Данные автора обновлены.'));
     }

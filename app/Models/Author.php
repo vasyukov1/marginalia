@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasManyThrough;
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 
 class Author extends Model
@@ -34,6 +35,15 @@ class Author extends Model
             get: fn (): string => app()->getLocale() === 'en' && $this->name_en
                 ? $this->name_en
                 : $this->name,
+        );
+    }
+
+    protected function avatarUrl(): Attribute
+    {
+        return Attribute::make(
+            get: fn (): ?string => $this->avatar_path
+                ? Storage::disk('public')->url($this->avatar_path)
+                : null,
         );
     }
 
