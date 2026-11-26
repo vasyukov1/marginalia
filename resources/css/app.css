@@ -21,6 +21,10 @@
 }
 
 @layer base {
+    [x-cloak] {
+        display: none !important;
+    }
+
     *, ::after, ::before, ::backdrop, ::file-selector-button {
         border-color: var(--color-line);
     }

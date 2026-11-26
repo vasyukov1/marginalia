@@ -22,15 +22,45 @@
                     <label class="flex items-center gap-2"><input type="radio" name="mode" value="new" x-model="mode" @checked(old('mode') === 'new')> {{ __('Новой книги ещё нет') }}</label>
                 </div>
             </fieldset>
-            <div x-show="mode === 'existing'">
-                <label for="book_id" class="mb-2 block text-sm">{{ __('Книга') }}</label>
-                <select id="book_id" name="book_id" class="table-filter w-full" :disabled="mode !== 'existing'" :required="mode === 'existing'">
-                    <option value="">{{ __('Выберите книгу') }}</option>
-                    @foreach ($books as $book)
-                        <option value="{{ $book->id }}" @selected(old('book_id') == $book->id)>{{ $book->localized_title }} — {{ $book->author->localized_name }}</option>
-                    @endforeach
-                </select>
-            </div>
+            <fieldset x-show="mode === 'existing'" :disabled="mode !== 'existing'"
+                      x-data="readingPicker(@js($bookSuggestions), @js($authorSuggestions), @js(old('book_id')), @js(old('catalog_title', '')), @js(old('catalog_author', '')))"
+                      class="space-y-4">
+                <legend class="sr-only">{{ __('Выберите книгу из каталога.') }}</legend>
+                <input type="hidden" name="book_id" :value="bookId">
+                @foreach (['title' => __('Название'), 'author' => __('Автор')] as $field => $label)
+                    <div class="relative" @click.outside="if (activeField === '{{ $field }}') close()" @focusout="if (!$el.contains($event.relatedTarget)) close()">
+                        <label for="catalog_{{ $field }}" class="mb-2 block text-sm">{{ $label }}</label>
+                        <input id="catalog_{{ $field }}" name="catalog_{{ $field }}" type="text" maxlength="255"
+                               :value="{{ $field }}" @input="edit('{{ $field }}', $event.target.value)" @focus="open('{{ $field }}')"
+                               @keydown.arrow-down.prevent="move('{{ $field }}', 1)" @keydown.arrow-up.prevent="move('{{ $field }}', -1)"
+                               @keydown.enter="if (activeField === '{{ $field }}') { $event.preventDefault(); chooseActive('{{ $field }}'); }"
+                               @keydown.escape.prevent="close()" autocomplete="off" role="combobox" aria-autocomplete="list"
+                               aria-controls="{{ $field }}-suggestions" :aria-expanded="activeField === '{{ $field }}'"
+                               :aria-activedescendant="activeField === '{{ $field }}' && activeIndex >= 0 ? '{{ $field }}-option-' + activeIndex : null"
+                               placeholder="{{ __('Начните вводить…') }}" class="table-filter w-full">
+                        <ul id="{{ $field }}-suggestions" role="listbox" aria-label="{{ $label }}" x-cloak
+                            x-show="activeField === '{{ $field }}'"
+                            class="absolute z-40 mt-1 max-h-64 w-full overflow-y-auto rounded-md border border-line bg-surface shadow-xl">
+                            <template x-for="(item, index) in suggestions('{{ $field }}')" :key="item.id">
+                                <li role="option" :id="'{{ $field }}-option-' + index" :aria-selected="activeIndex === index">
+                                    <button type="button" tabindex="-1" @mousedown.prevent @click="choose('{{ $field }}', item)"
+                                            :class="activeIndex === index ? 'bg-surface-hover' : ''"
+                                            class="block w-full px-4 py-3 text-left text-sm hover:bg-surface-hover">
+                                        <span class="block" x-text="item.label"></span>
+                                        @if ($field === 'title')
+                                            <span class="mt-1 block text-xs text-muted" x-text="item.author"></span>
+                                        @endif
+                                    </button>
+                                </li>
+                            </template>
+                            <li x-show="suggestions('{{ $field }}').length === 0" role="presentation" class="px-4 py-3 text-sm text-muted">
+                                {{ __('Совпадений нет. Можно добавить новую книгу.') }}
+                            </li>
+                        </ul>
+                    </div>
+                @endforeach
+                <p class="text-sm text-muted" role="status" x-show="bookId">{{ __('Книга выбрана. Автор заполнен автоматически.') }}</p>
+            </fieldset>
             <fieldset x-show="mode === 'new'" :disabled="mode !== 'new'" class="space-y-4">
                 <legend class="sr-only">{{ __('Новая книга') }}</legend>
                 <p class="text-sm text-muted">{{ __('Книга появится в общем каталоге. Если автор и название уже есть, используем существующую запись.') }}</p>

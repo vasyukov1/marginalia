@@ -15,9 +15,24 @@ class ReadingController extends Controller
 {
     public function create(): View
     {
+        $books = Book::with('author')->get()->sortBy('localized_title')->values();
+        $authors = Author::all()->sortBy('localized_name')->values();
+
         return view('readings.create', [
-            'books' => Book::with('author')->orderBy('title_key')->get(),
-            'authors' => Author::all()->sortBy('localized_name')->values(),
+            'authors' => $authors,
+            'bookSuggestions' => $books->map(fn (Book $book): array => [
+                'id' => $book->id,
+                'label' => $book->localized_title,
+                'search' => $book->title.' '.$book->title_en,
+                'author_id' => $book->author_id,
+                'author' => $book->author->localized_name,
+                'author_search' => $book->author->name.' '.$book->author->name_en,
+            ]),
+            'authorSuggestions' => $authors->map(fn (Author $author): array => [
+                'id' => $author->id,
+                'label' => $author->localized_name,
+                'search' => $author->name.' '.$author->name_en,
+            ]),
         ]);
     }
 

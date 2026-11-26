@@ -115,5 +115,8 @@
     "Фантастика": "Fantasy & science fiction",
     "Драма": "Drama",
     "Морские приключения": "Sea adventures",
-    "Роман": "Novel"
+    "Роман": "Novel",
+    "Начните вводить…": "Start typing…",
+    "Совпадений нет. Можно добавить новую книгу.": "No matches. You can add a new book.",
+    "Книга выбрана. Автор заполнен автоматически.": "Book selected. The author has been filled in automatically."
 }
