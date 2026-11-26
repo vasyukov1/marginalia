@@ -11,6 +11,11 @@
             <a href="{{ route('authors.edit', $author) }}" class="secondary-action sm:ml-auto">{{ __('Редактировать автора') }}</a>
         @endcan
     </div>
+    @if ($author->avatar_source_url && $author->avatar_credit)
+        <p class="mb-5 text-xs text-muted">
+            {{ __('Фото:') }} <a href="{{ $author->avatar_source_url }}" target="_blank" rel="noopener noreferrer" class="underline underline-offset-4">{{ $author->avatar_credit }}</a>
+        </p>
+    @endif
     @if ($stats !== null)
         <h2 class="mb-4 text-sm font-medium">{{ __('Вы прочитали') }}</h2>
         @include('readings.stats', ['authorStats' => true])

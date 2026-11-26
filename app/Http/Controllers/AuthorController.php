@@ -60,6 +60,11 @@ class AuthorController extends Controller
             $author->avatar_path = null;
         }
 
+        if ($newPath !== null || $request->boolean('remove_avatar')) {
+            $author->avatar_source_url = null;
+            $author->avatar_credit = null;
+        }
+
         try {
             $author->save();
         } catch (Throwable $exception) {
