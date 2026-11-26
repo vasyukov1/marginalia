@@ -22,6 +22,8 @@ class BookTableRequest extends FormRequest
             'genre' => ['nullable', 'string', 'max:100'],
             'sort' => ['nullable', Rule::in(['title', 'author', 'country', 'genre', 'year', 'pages', 'period', 'rating'])],
             'direction' => ['nullable', Rule::in(['asc', 'desc'])],
+            'reading_year' => ['nullable', 'regex:/^(?:[12][0-9]{3}|unknown)$/'],
+            'reading_season' => ['nullable', Rule::in(['winter', 'spring', 'summer', 'autumn', 'unknown'])],
         ];
     }
 }
