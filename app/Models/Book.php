@@ -81,13 +81,19 @@ class Book extends Model
         $searchTerm = Str::squish($filters['q'] ?? '');
         $search = Str::lower($searchTerm);
         if ($search !== '') {
-            $query->where(function (Builder $books) use ($search, $searchTerm) {
+            // Страны хранятся на русском, но искать можно и по английскому переводу.
+            $matchingCountries = Author::whereNotNull('country')->distinct()->pluck('country')
+                ->filter(fn (string $country): bool => Str::contains(Str::lower($country), $search)
+                    || Str::contains(Str::lower(__($country, [], 'en')), $search))
+                ->values()->all();
+
+            $query->where(function (Builder $books) use ($search, $matchingCountries) {
                 $books->where('title_key', 'like', '%'.$search.'%')
                     ->orWhereLike('title_en', '%'.$search.'%')
                     ->orWhereHas('author', fn (Builder $authors) => $authors
                         ->where('name_key', 'like', '%'.$search.'%')
                         ->orWhereLike('name_en', '%'.$search.'%')
-                        ->orWhere('country', 'like', '%'.$searchTerm.'%'));
+                        ->orWhereIn('country', $matchingCountries));
 
                 if (ctype_digit($search)) {
                     $books->orWhere('publication_year', (int) $search);

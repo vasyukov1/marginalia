@@ -120,3 +120,20 @@ it('keeps the home page free of the book table', function () {
         ->assertSee(route('books.index'))->assertDontSee('Catalog only title')
         ->assertDontSee('<table', false);
 });
+
+it('searches countries by their Russian and English names in either interface language', function (string $locale, string $query, string $country) {
+    $author = Author::factory()->create(['name' => 'Автор', 'country' => $country]);
+    $book = Book::factory()->for($author)->create(['title' => 'Книга', 'title_en' => null]);
+    Book::factory()->for(Author::factory()->create(['name' => 'Другой автор', 'country' => 'Италия']))
+        ->create(['title' => 'Другая книга', 'title_en' => null]);
+
+    $this->withSession(['locale' => $locale])->get('/books?'.http_build_query(['q' => $query]))
+        ->assertOk()->assertViewHas('books', fn ($books) => $books->modelKeys() === [$book->id]);
+})->with([
+    ['en', 'england', 'Англия'],
+    ['ru', '  ENGLAND  ', 'Англия'],
+    ['en', 'англия', 'Англия'],
+    ['ru', 'АНГЛ', 'Англия'],
+    ['en', 'france', 'Франция'],
+    ['ru', 'united king', 'Великобритания'],
+]);
